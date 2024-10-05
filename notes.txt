@@ -1,4 +1,4 @@
-
+--------------------------------------This are the notes for the html--------------------------------
 
 <!--Classs are like group-->
 <!--id is like roll number-->
@@ -31,3 +31,29 @@ select one item from a large list
 <!--Iframe tag can we useful for displaying the webiste and vedios on you own website and you can aslo use the height and width as an arrtibute to adjust the size-->
 
 <!--Vedios can be use to display the vedios with height and widht and also with controls-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-----------------------------------------------------This are the notes for css --------------------------------
+
+#Type of css attachments with html
+  WE can do it inline or in doccument or extrenal . External is suggestted
+    EG- <link rel="stylesheet" href="/PortfolioSite/portfolio.css">.
+
+#What is favicon and how to make favicon
+  So the favicon is the icon that is used in the title bar of the page
+   (Favicon.io is use to generate the favicon)
+      
