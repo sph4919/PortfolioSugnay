@@ -56,4 +56,16 @@ select one item from a large list
 #What is favicon and how to make favicon
   So the favicon is the icon that is used in the title bar of the page
    (Favicon.io is use to generate the favicon)
-      
+      EG - <link rel="shortcut icon" href="/PortfolioSite/favicon.ico" type="image/x-icon">
+
+#selector - 
+  Simple Selector use the tags
+  Universal use *
+  Class selector use the tag name + class name\
+  Generic selector use .class name
+  Id slector #id
+  Contextual selector ul {list-style-type:circle;}
+                      ul ul {list-style-type:square;} 
+  Pseudo class p.wide:hover {font-weight:bold;}
+#conflict resolve and precedence - inline > documents > External
+                                 - id selectors > class >generic > psuedo > contextual > simple > univereal
