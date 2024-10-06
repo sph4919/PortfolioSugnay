@@ -5,17 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PortFolio Page</title>
     <link rel="stylesheet" href="/PortfolioSite/portfolio.css">
-    <link rel="shortcut icon" href="/PortfolioSite/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="/PortfolioSite/Images/favicon.ico" type="image/x-icon">
 </head>
 
 
 <body>
    <!-- This is place for image  -->
 
+<div class="container">
 
+    <div class="NavigationDivision">
+        <section class="Navigation">
+        <table>
+            <th>
+            <tr><td>About</td></tr>
+            <tr><td>Projects And Skills</td></tr>
+            <tr><td>Certifications</td></tr>
+            <tr><td>Future Projects</td></tr>
+            <tr><td>Education</td></tr>
+            <tr><td>Contact</td></tr>
+            </th>
+        </table>
+        </section>
+       </div>
+
+<div class="Content">
 <header>    <!--This is the example of segmentic layout-->
      <section class="ProfileSection">
-      <img src ="/PortfolioSite/ProfilePhoto.jpg" alt="You are not Lucky." height="100" >
+      <img src ="/PortfolioSite/Images/ProfilePhoto.jpg" alt="You are not Lucky." height="100" >
       <h1 class="Title1">Sugnay Patel</h1>
       <hr>
       <p class="Intro">Hey buddy! Welcome to my PortFolio Page</p> <!-- Pre tag count spaces-->
@@ -26,10 +43,12 @@
      </section>
 
      <section class="Resume">
-        <a href = "/PortfolioSite/Resume.pdf" target="_main">Resume</a>   <!-- relative link  -->
-        <hr>
+        <a href = "/PortfolioSite/Resume.pdf" target="_main"><button class="ResumeButton">Resume</button></a>   <!-- relative link  -->
+        <a href = "/PortfolioSite/Resume.pdf" target="_main"><button class="CVButton">CV</button></a>
+      
     </section>
 </header>
+
 
  
  
@@ -68,42 +87,22 @@
     </section>
 
 
-
-    <section class="Navigation">
-    <table>
-        <th>
-        <tr><td>About</td></tr>
-        <tr><td>Projects And Skills</td></tr>
-        <tr><td>Certifications</td></tr>
-        <tr><td>Future Projects</td></tr>
-        <tr><td>Education</td></tr>
-        <tr><td>Contact</td></tr>
-        </th>
-    </table>
-    </section>
-
 </main>
 
-    
+
     
     
 <footer>   <!--This is the example of segmentic layout-->
      <section class="ContactSection">
        <h2 class="Title3.1">Contact</h2>
-       <a href="https://www.linkedin.com/in/patel-sugnay-825726226/" target="_main"><img src="/PortfolioSite/Linkidein.jpg" alt="linkedin" height="80"></a>  <!--  absolute link -->
+       <a href="https://www.linkedin.com/in/patel-sugnay-825726226/" target="_main"><img src="/PortfolioSite/Images/Linkidein.jpg" alt="linkedin" height="80"></a>  <!--  absolute link -->
        <br>
        <span>Email: patelsugnay49@gmail.com</span>
-       <form action="" method="get">
-         <label>Inquiry:</label><input type="text" placeholder="Question">
-         <br>
-         <label>
-           <input type="radio" value="Immediate Response" name="rdButton">Immediate Response
-           <input type="radio" value="Late Response" name="rdButton">Late Response
-         </label>
-       </form>
+    
 
      </section>
 </footer>
+</div>
 
 
 </body>

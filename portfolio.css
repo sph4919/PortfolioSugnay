@@ -1,2 +1,65 @@
 /* Style. css file for the portfolio website */
 
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Indie+Flower&display=swap');
+
+div.container
+{
+    display:grid;
+    grid-template-columns: 1.5fr 8fr;  
+    height: 300vh; 
+    width: 100vw;
+}
+
+div.NavigationDivision
+{
+    background-color: rgb(196, 150, 81);
+}
+
+div.Content
+{
+    background-color: rgb(234, 227, 213) ;
+}
+
+section.Resume
+{
+    position: absolute;
+    left: 1350px;
+    top: 10px;
+    text-decoration: dotted;
+}
+
+button.ResumeButton
+{
+    font-size: 25px;
+    border-radius: 10px;
+    margin-right: -10px;
+    text-shadow: 1px 4px 5px rgb(136, 126, 126);
+}
+
+button.CVButton
+{
+    font-size: 25px;
+    border-radius: 10px;
+    margin-left: 15px;
+    text-shadow: 1px 4px 5px rgb(136, 126, 126);
+}
+
+
+
+p.Intro
+{
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-weight: 20px;
+    font-style: normal;
+}
+
+
+article.Motive
+{
+    word-spacing: 3px;
+    line-height: 20px;
+    font-family: "Indie Flower", cursive;
+}
+
