@@ -69,3 +69,9 @@ select one item from a large list
   Pseudo class p.wide:hover {font-weight:bold;}
 #conflict resolve and precedence - inline > documents > External
                                  - id selectors > class >generic > psuedo > contextual > simple > univereal
+
+                            
+
+
+#color selection
+Color for the can be select from the coolors.co website
