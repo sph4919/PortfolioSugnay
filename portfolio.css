@@ -19,13 +19,19 @@ div.NavigationDivision
  background-color: rgb(29, 28, 28);
  color: aliceblue;
  text-align: center;
- height: 60vh;
+ height: 55vh;
  width: 15vw;
  margin-top:50%;
  position: absolute;
  left: 10px;
  top: -600px;
 text-align: center;
+border-right: 5px;
+border-style: solid;
+border-color: transparent;
+border-image: linear-gradient(to right, #6a11cb, #2575fc);
+border-image-slice: 1;
+
  
 }
 
@@ -33,15 +39,14 @@ div.Content
 {
     width: 83vw;  
     position: absolute; 
-    left: 300px;
+    left: 310px;
     top:0px;
     height: 100vh;
     overflow-y:auto ;
     background-color: rgb(233, 236, 236);
     margin-left: -50px;
-    border-left: 2px;
-    border-color: black;
-    border-style: solid;
+   
+    
 } 
 
 section.Resume
@@ -112,4 +117,23 @@ section.Navigation
     left: 50px;
     top: 100px;
     line-height: 30px;
+}
+
+img.GraphicComputer
+{
+    height: 180px;
+    width: 237px;
+    margin-top: -8px;
+    padding-left:3px;
+}
+
+img.GraphicScientist
+{
+    position: absolute;
+    height: 159px;
+    width: 238px;
+    margin-top: -5px;
+    padding-left:0px;
+    top: 575px;
+    left:10px;
 }
