@@ -7,25 +7,48 @@ div.container
 {
     display:grid;
     grid-template-columns: 1.5fr 8fr;  
-    height: 300vh; 
-    width: 100vw;
+    height: auto; 
+    width: 98vw;
+    
+
+
 }
 
 div.NavigationDivision
 {
-    background-color: rgb(196, 150, 81);
+ background-color: rgb(29, 28, 28);
+ color: aliceblue;
+ text-align: center;
+ height: 60vh;
+ width: 15vw;
+ margin-top:50%;
+ position: absolute;
+ left: 10px;
+ top: -600px;
+text-align: center;
+ 
 }
 
 div.Content
 {
-    background-color: rgb(234, 227, 213) ;
-}
+    width: 83vw;  
+    position: absolute; 
+    left: 300px;
+    top:0px;
+    height: 100vh;
+    overflow-y:auto ;
+    background-color: rgb(233, 236, 236);
+    margin-left: -50px;
+    border-left: 2px;
+    border-color: black;
+    border-style: solid;
+} 
 
 section.Resume
 {
     position: absolute;
-    left: 1350px;
-    top: 10px;
+    left: 1000px;
+    top: 25px;
     text-decoration: dotted;
 }
 
@@ -63,3 +86,30 @@ article.Motive
     font-family: "Indie Flower", cursive;
 }
 
+img.ProfileImage
+{
+    height: 130px;
+    width: 150px;
+    width: 80px;
+    border-radius: 50%;
+    border-color: black;
+    border-style: solid;
+    border-width: 5px;
+    float:left
+
+}
+
+hr
+{
+    border-color: black;
+    border-width: 3px;
+}
+
+
+section.Navigation
+{
+    position: absolute;
+    left: 50px;
+    top: 100px;
+    line-height: 30px;
+}

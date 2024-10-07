@@ -95,3 +95,9 @@ Use the text shadow - hortizal y-axis blur color
 
 #fonts
 We can use the google font website for selecting font
+
+#Overflow
+if anything is accuring  more space in the page then you can add the overflow properties as auto 
+
+#float 
+The float is use to display img or video or anything floatiing on the page .
