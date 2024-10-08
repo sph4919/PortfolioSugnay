@@ -1,55 +1,113 @@
 /* Style. css file for the portfolio website */
 
-@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Indie+Flower&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap');
 
 div.container
 {
     display:grid;
     grid-template-columns: 1.5fr 8fr;  
-    height: auto; 
+    height: 100vh; 
     width: 98vw;
+    background-color: #f4fdff;
     
-
-
 }
 
 div.NavigationDivision
 {
- background-color: rgb(29, 28, 28);
- color: aliceblue;
- text-align: center;
- height: 55vh;
- width: 15vw;
- margin-top:50%;
- position: absolute;
- left: 10px;
- top: -600px;
-text-align: center;
-border-right: 5px;
-border-style: solid;
-border-color: transparent;
-border-image: linear-gradient(to right, #6a11cb, #2575fc);
-border-image-slice: 1;
-
- 
+    
+    position: absolute;
+    top:0px;
+    left:0px;
+    height: 60vh;
+    margin-left: 45px;
+    background-color:  rgb(134, 50, 50);
+    color:#f4fdff;
+    font-size: 20px;
+    font-family: "Protest Strike", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    width: 12vw;
+    text-align: center;
+    padding-left: 25px;
+    padding-top: 300px;
+    line-height: 30px;
+    
 }
 
-div.Content
-{
-    width: 83vw;  
-    position: absolute; 
-    left: 310px;
-    top:0px;
-    height: 100vh;
-    overflow-y:auto ;
-    background-color: rgb(233, 236, 236);
-    margin-left: -50px;
-   
-    
-} 
 
-section.Resume
+
+div.ContentDivision
+{
+  
+    margin-left: 250px;
+    width: 82vw;
+    height: 100vh;
+    overflow-y: scroll;
+    background-color: #f4fdff;
+    
+   
+}
+
+
+
+section.ProjectSkillSection
+{
+    background-color:  rgb(134, 50, 50);
+    color:#f4fdff;
+    width: 60vw;
+    margin-left:150px;
+
+}
+
+section.FutureSection
+{
+    background-color:  rgb(134, 50, 50);
+    color:#f4fdff;
+    width: 60vw;
+    margin-left:150px;
+}
+
+section.CertiSection
+{
+    background-color:  rgb(134, 50, 50);
+    color:#f4fdff;
+    width: 60vw;
+    margin-left:150px;
+}
+
+section.EduSection
+{
+    background-color:  rgb(134, 50, 50);
+    color:#f4fdff;
+    width: 60vw;
+    margin-left:150px;
+}
+
+section.WESection
+{
+    background-color:  rgb(134, 50, 50);
+    color:#f4fdff;
+    width: 60vw;
+    margin-left:150px;
+}
+
+section.ContactSection
+{
+    background-color:  rgb(134, 50, 50);
+    color: #f4fdff;
+    width: 60vw;
+    margin-left:150px;
+}
+
+
+
+
+
+
+
+
+/* section.Resume
 {
     position: absolute;
     left: 1000px;
@@ -136,4 +194,4 @@ img.GraphicScientist
     padding-left:0px;
     top: 575px;
     left:10px;
-}
+} */ 
