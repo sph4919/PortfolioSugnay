@@ -5,48 +5,73 @@
 
 div.container
 {
-    display:grid;
-    grid-template-columns: 1.5fr 8fr;  
+    display:grid; 
+    grid-template-columns: 25vw 70vw;
     height: 100vh; 
     width: 98vw;
     background-color: #f4fdff;
+    gap:10px;
+    overflow-y:auto;
+    overflow-x: hidden;
+    
     
 }
 
-div.NavigationDivision
+ nav.NavigationDivision
 {
     
-    position: absolute;
-    top:0px;
-    left:0px;
-    height: 60vh;
-    margin-left: 45px;
+    height: 100vh;
     background-color:  rgb(134, 50, 50);
     color:#f4fdff;
     font-size: 20px;
     font-family: "Protest Strike", sans-serif;
     font-weight: 400;
     font-style: normal;
-    width: 12vw;
     text-align: center;
-    padding-left: 25px;
-    padding-top: 300px;
     line-height: 30px;
+    float:left;
+    left:0px;
+    overflow-y: hidden;
+    width: 20vw;
+    position: absolute; 
+    margin-left:60px;
+
     
+} 
+
+
+img.ProfileImage
+{
+    max-width: 50%;
+    max-height: 130px;
+    border-radius: 50%;
+    border-color: #F5F5DC;
+    border-style: solid;
+    border-width: 5px;
+    margin-top:150px;
 }
 
+p.NavigationData:hover
+{
+    color: #e6c404;
+    transition: 0.5s ease-out;
+}
 
 
 div.ContentDivision
 {
   
-    margin-left: 250px;
-    width: 82vw;
-    height: 100vh;
-    overflow-y: scroll;
-    background-color: #f4fdff;
     
+    overflow-y: auto; /* Enable scrolling */
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+    background-color: #f4fdff;
    
+} 
+
+div.ContentDivision::-webkit-scrollbar
+{
+    display: none;
 }
 
 

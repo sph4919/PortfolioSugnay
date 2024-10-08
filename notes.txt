@@ -101,3 +101,10 @@ if anything is accuring  more space in the page then you can add the overflow pr
 
 #float 
 The float is use to display img or video or anything floatiing on the page .
+
+#The flex is also the important properties in css to learn if we are creating the multiple box eg -courses in ur courses
+#this concept is base on main and vertical axis.
+
+#The images on the profestional webiste is called assets . To clone the assets we can use CSS peeper . 
+
+#trasiton can be use in css as property
