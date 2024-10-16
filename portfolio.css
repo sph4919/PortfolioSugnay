@@ -21,7 +21,7 @@ div.container
 {
     
     height: 100vh;
-    background-color:  rgb(134, 50, 50);
+    background-color:  rgb(117, 186, 232);
     color:#f4fdff;
     font-size: 20px;
     font-family: "Protest Strike", sans-serif;
@@ -45,7 +45,7 @@ img.ProfileImage
     max-width: 50%;
     max-height: 130px;
     border-radius: 50%;
-    border-color: #F5F5DC;
+    border-color: #000000;
     border-style: solid;
     border-width: 5px;
     margin-top:150px;
@@ -78,49 +78,69 @@ div.ContentDivision::-webkit-scrollbar
 
 section.ProjectSkillSection
 {
-    background-color:  rgb(134, 50, 50);
-    color:#f4fdff;
+    background-color:  rgb(190, 238, 186);
+    color:#000000;
     width: 60vw;
     margin-left:150px;
 
 }
 
+div.Progress
+{
+    height: 5px;
+    width: 80%; /* Change this value to set the progress */
+    background-color: #e8dfdf;
+    text-align: center;
+    line-height: 30px; /* Center the text vertically */
+    border-radius: 50px; /* Rounded corners */
+}
+
+div.Progress-bar
+{
+    height: 5px;
+    width: 50%; /* Change this value to set the progress */
+    background-color: #f00606;
+    text-align: center;
+    line-height: 30px; /* Center the text vertically */
+    border-radius: 50px; /* Rounded corners */
+    overflow: hidden;
+}
 section.FutureSection
 {
-    background-color:  rgb(134, 50, 50);
-    color:#f4fdff;
+    background-color:   rgb(190, 238, 186);
+    color:#000000;
     width: 60vw;
     margin-left:150px;
 }
 
 section.CertiSection
 {
-    background-color:  rgb(134, 50, 50);
-    color:#f4fdff;
+    background-color:   rgb(190, 238, 186);
+    color:#000000;
     width: 60vw;
     margin-left:150px;
 }
 
 section.EduSection
 {
-    background-color:  rgb(134, 50, 50);
-    color:#f4fdff;
+    background-color:   rgb(190, 238, 186);
+    color:#000000;
     width: 60vw;
     margin-left:150px;
 }
 
 section.WESection
 {
-    background-color:  rgb(134, 50, 50);
-    color:#f4fdff;
+    background-color:   rgb(190, 238, 186);
+    color:#000000;
     width: 60vw;
     margin-left:150px;
 }
 
 section.ContactSection
 {
-    background-color:  rgb(134, 50, 50);
-    color: #f4fdff;
+    background-color:   rgb(190, 238, 186);
+    color:#000000;
     width: 60vw;
     margin-left:150px;
 }
