@@ -108,3 +108,11 @@ The float is use to display img or video or anything floatiing on the page .
 #The images on the profestional webiste is called assets . To clone the assets we can use CSS peeper . 
 
 #trasiton can be use in css as property
+
+#unsplah can be use to download the non copyreight images
+
+
+#the vairable can be declared in css by --my-var: value and it can be called by var() function and it can be local and global
+
+
+#the calc() fucntion is use for calcluations.
