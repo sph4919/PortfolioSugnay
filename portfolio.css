@@ -63,7 +63,7 @@ img.ProfileImage:hover
 }
 
 
-p.NavigationData:hover
+p.NavigationData:hover  /*puesodo class */
 {
     color: #e6c404;
     transition: 0.5s ease-out;
@@ -135,26 +135,35 @@ section.ResumeCVSection
 }
 
 
-div.ContentDivision::-webkit-scrollbar
+div.ContentDivision::-webkit-scrollbar  /*puesodo elements */
 {
     display: none;
 }
 
 
-section.EduSection
+
+div.FlexContainer
+{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+div.EduSection
 {
     background-color:  #04907A;
     color: white;
-    width: 60vw;
-    margin-left:152px;
+    
+    margin-left:100px;
     font-family: "Exo", sans-serif;
      font-optical-sizing: auto;
      font-weight: 400;
-     font-style: normal;
+     font-style: normal;   
      
      
+  
 }
-
 
 
 h2.TitleEdu
@@ -164,6 +173,7 @@ h2.TitleEdu
     font-weight: 400;
     font-style: normal;
     margin-left: 10px;
+ 
 }
 
 section.CourseInfo
@@ -177,56 +187,68 @@ section.CourseInfo
     "GRAD" 0;
     font-size: 20px;
     margin-left: 10px;
+    
 }
 
 section.Specializing
 {
     line-height: 15px;
     margin-left: 10px;
+    
 }
 
 
-section.ProjectSkillSection
+div.ProjectSkillSection
 {
     background-color: #04907A;
     color: white;
-    width: 60vw;
-    margin-left:152px;
+    
+    
+    margin-left:100px;
+  
 }
 
 
-section.FutureSection
+div.FutureSection
 {
     background-color: #04907A;
-    width: 60vw;
-    margin-left:152px;
+    
+    
+    margin-left:100px;
     color: white;
+  
 }
 
-section.CertiSection
+div.CertiSection
 {
     background-color: #04907A;
     color: white;
-    width: 60vw;
-    margin-left:152px;
+    
+    
+    margin-left:100px;
+   
 }
 
 
 
-section.WESection
+div.WESection
 {
     background-color:   #04907A;
     color: white;
-    width: 60vw;
-    margin-left:152px;
+    
+    
+    margin-left:100px;
+   
 }
 
-section.ContactSection
+div.ContactSection
 {
     background-color:   #04907A;
     color: white;
-    width: 60vw;
-    margin-left:152px;
+    
+    
+    margin-left:100px;
+   
 }
 
 
@@ -254,92 +276,3 @@ div.Progress-bar
 
 
 
-
-/* section.Resume
-{
-    position: absolute;
-    left: 1000px;
-    top: 25px;
-    text-decoration: dotted;
-}
-
-button.ResumeButton
-{
-    font-size: 25px;
-    border-radius: 10px;
-    margin-right: -10px;
-    text-shadow: 1px 4px 5px rgb(136, 126, 126);
-}
-
-button.CVButton
-{
-    font-size: 25px;
-    border-radius: 10px;
-    margin-left: 15px;
-    text-shadow: 1px 4px 5px rgb(136, 126, 126);
-}
-
-
-
-p.Intro
-{
-    font-family: "Cinzel", serif;
-    font-optical-sizing: auto;
-    font-weight: 20px;
-    font-style: normal;
-}
-
-
-article.Motive
-{
-    word-spacing: 3px;
-    line-height: 20px;
-    font-family: "Indie Flower", cursive;
-}
-
-img.ProfileImage
-{
-    height: 130px;
-    width: 150px;
-    width: 80px;
-    border-radius: 50%;
-    border-color: black;
-    border-style: solid;
-    border-width: 5px;
-    float:left
-
-}
-
-hr
-{
-    border-color: black;
-    border-width: 3px;
-}
-
-
-section.Navigation
-{
-    position: absolute;
-    left: 50px;
-    top: 100px;
-    line-height: 30px;
-}
-
-img.GraphicComputer
-{
-    height: 180px;
-    width: 237px;
-    margin-top: -8px;
-    padding-left:3px;
-}
-
-img.GraphicScientist
-{
-    position: absolute;
-    height: 159px;
-    width: 238px;
-    margin-top: -5px;
-    padding-left:0px;
-    top: 575px;
-    left:10px;
-} */ 
