@@ -101,6 +101,7 @@ div.ContentDivision
     overflow-x: hidden;
 } 
 
+
 button.ResumeButton
 {
     background-color: #242E31;
@@ -111,6 +112,7 @@ button.ResumeButton
     padding-bottom: 30px;
     margin-top: -50px;border-radius: 10px;
 }
+
 
 button.CVButton
 {
@@ -200,14 +202,30 @@ div.FlexContainer
     gap: 10px;
 }
 
+
 div.verticalLine
 {
     border-left: 5px solid black;
-            height: 1290px; 
-            margin-left: 15px;
-            float:left;
-            margin-top: 5px;
+    height: 1300px; 
+    margin-left: 25px;
+    float:left;
+    margin-top: 15px;
 }
+
+
+div.Logos
+{
+    display:flex;
+    flex-direction: column;
+}
+
+
+img.EducationLogo
+{
+    height: 60px;
+    border-radius: 50%;
+}
+
 
 div.EduSection
 {
@@ -221,7 +239,6 @@ div.EduSection
      animation-name: blurTovisible;
      animation-duration: 2s;
      animation-timing-function: linear;
-  
 }
 
 
@@ -232,7 +249,6 @@ h2.TitleEdu
     font-weight: 400;
     font-style: normal;
     margin-left: 10px;
- 
 }
 
 
@@ -247,7 +263,6 @@ section.CourseInfo
     "GRAD" 0;
     font-size: 20px;
     margin-left: 10px;
-    
 }
 
 
@@ -258,7 +273,6 @@ section.Specializing
     font-family: "Chakra Petch", sans-serif;
     font-weight: 500;
     font-style: normal;
-    
 }
 
 
@@ -271,9 +285,9 @@ div.ProjectSkillSection
     animation-duration: 2s;
     animation-timing-function: linear;
  
-    
 }
   
+
 section.Projects
 {
     font-family: "Chakra Petch", sans-serif;
@@ -305,6 +319,7 @@ div.FutureSection
     animation-timing-function: linear;
     
 }
+
 
 section.FutureProjects
 {
