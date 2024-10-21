@@ -110,7 +110,8 @@ button.ResumeButton
     text-align: center;
     padding-top: 30px;
     padding-bottom: 30px;
-    margin-top: -50px;border-radius: 10px;
+    margin-top: -50px;
+    border-radius: 10px;
 }
 
 
@@ -126,6 +127,7 @@ button.CVButton
     padding-right: 35px;
     margin-top: -50px;
     border-radius: 10px;
+    margin-right: -50px;
 }
 
 
@@ -183,8 +185,7 @@ section.ResumeCVSection
 {
     float :inline-end;
     margin-right: 50px;
-    margin-top:-50px;
-    
+    margin-top:-50px;  
 }
 
 
@@ -196,7 +197,6 @@ div.ContentDivision::-webkit-scrollbar  /*puesodo elements */
 
 div.FlexContainer
 {
-    
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -206,24 +206,90 @@ div.FlexContainer
 div.verticalLine
 {
     border-left: 5px solid black;
-    height: 1300px; 
-    margin-left: 25px;
+    height: 1100px; 
+    margin-left: 30px;
     float:left;
     margin-top: 15px;
-}
-
-
-div.Logos
-{
-    display:flex;
+    animation-name: linedisplay;
+    animation-duration: 5s;
+    z-index: 0;
+    display: flex;
     flex-direction: column;
+    align-items: center;
+   
 }
 
+
+@keyframes linedisplay
+{
+    0%
+    {
+      height: 0px;
+    }
+    100%
+    {
+      height: 1100px;
+    }
+}
 
 img.EducationLogo
+{   
+    margin-top: -15px;
+    height: 60px;
+    border-radius: 50%;
+    z-index: 1;
+    margin-left: -33px;
+    margin-bottom: 190px;
+    border-color: #000000;
+    border-width: 2px;
+    border-style: solid;
+}
+
+img.PsLogo
 {
     height: 60px;
     border-radius: 50%;
+    z-index: 1;
+    margin-left: -33px;
+    border-color: #000000;
+    border-width: 2px;
+    border-style: solid;
+    margin-bottom: 370px;
+}
+
+img.CertiLogo
+{
+    height: 60px;
+    border-radius: 50%;
+    z-index: 1;
+    margin-left: -33px;   
+    border-color: #000000;
+    border-width: 2px;
+    border-style: solid;
+    margin-bottom: 130px;
+}
+
+img.FutureLogo
+{
+    height: 60px;
+    border-radius: 50%;
+    z-index: 1;
+    margin-left: -33px;    
+    border-color: #000000;
+    border-width: 2px;
+    border-style: solid;
+    margin-bottom: 140px;
+}
+
+img.WELogo
+{
+    height: 60px;
+    border-radius: 50%;
+    z-index: 1;
+    margin-left: -33px; 
+    border-color: #000000;
+    border-width: 2px;
+    border-style: solid;
 }
 
 
@@ -231,7 +297,7 @@ div.EduSection
 {
      background-color:  #242E31;
      color: white;
-     margin-left:80px;
+     margin-left: 40px;
      font-family: "Exo", sans-serif;
      font-optical-sizing: auto;
      font-weight: 400;
@@ -280,7 +346,7 @@ div.ProjectSkillSection
 {
     background-color:  #242E31;
     color: white;
-    margin-left:80px;
+    margin-left: 40px;
     animation-name: blurTovisible;
     animation-duration: 2s;
     animation-timing-function: linear;
@@ -297,8 +363,6 @@ section.Projects
 }
 
 
-
-
 h2.TitlePS
 {
     font-size:30px;
@@ -312,7 +376,7 @@ h2.TitlePS
 div.FutureSection
 {
     background-color:  #242E31;
-    margin-left:80px;
+    margin-left: 40px;
     color: white;
     animation-name: blurTovisible;
     animation-duration: 2s;
@@ -344,7 +408,7 @@ div.CertiSection
 {
     background-color:  #242E31;
     color: white;
-    margin-left:80px;
+    margin-left: 40px;
     animation-name: blurTovisible;
     animation-duration: 2s;
     animation-timing-function: linear;
@@ -371,9 +435,9 @@ ol.Certificates
 
 div.WESection
 {
-    background-color:    #242E31;
+    background-color: #242E31;
     color: white;
-    margin-left:80px;
+    margin-left: 40px;
     animation-name: blurTovisible;
     animation-duration: 2s;
     animation-timing-function: linear;
