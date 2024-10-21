@@ -116,3 +116,19 @@ The float is use to display img or video or anything floatiing on the page .
 
 
 #the calc() fucntion is use for calcluations.
+
+
+#this all are transform function
+#scale is use to define the size
+#skew function can be use for skewing by degress
+#translate is use for location and rotate is use to rotate the box of picture
+#transform origin is use to set the point of transform
+
+
+#for transtition
+#transition property are use to define property in which you are doing transition
+#transtion delay is use for delaying .
+#time function 
+#transiton are of many type ease in and out , linear or cubic
+#Note the trasntion is in between 2 points only not like aninamtion
+

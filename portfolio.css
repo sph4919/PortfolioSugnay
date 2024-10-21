@@ -8,6 +8,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&family=Lilita+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&family=Lilita+One&family=Signika:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+
 
 div.container
 {
@@ -18,14 +20,12 @@ div.container
     background-color: white ;
     gap:10px;
     overflow-y:auto;
-    overflow-x: hidden;
-       
+    overflow-x: hidden;      
 }
 
 
 nav.NavigationDivision
 {
-    
     height: 100vh;
     background-color: #242E31;
     color:#f4fdff;
@@ -34,7 +34,7 @@ nav.NavigationDivision
     font-weight: 400;
     font-style: normal;
     text-align: center;
-    line-height: 30px;
+    line-height: 20px;
     float:left;
     left:0px;
     overflow-y: hidden;
@@ -44,21 +44,21 @@ nav.NavigationDivision
 } 
 
 
-
 img.ProfileImage
 {
     max-width: 50%;
-    max-height: 130px;
+    max-height: 135px;
     border-radius: 50%;
     border-color: #000000;
     border-style: solid;
     border-width: 5px;
-    margin-top:150px;
+    margin-top:90px;
 }
+
 
 img.ProfileImage:hover
 {
-    border-color:#D1D1CE;
+    border-color: #e6c404;
     transition: 0.4s ease-in-out;
 }
 
@@ -66,7 +66,28 @@ img.ProfileImage:hover
 p.NavigationData:hover  /*puesodo class */
 {
     color: #e6c404;
-    transition: 0.5s ease-out;
+    font-size: 25px;
+    transition: 0.2s ease-out;  
+}
+
+
+img.ContactImgs
+{
+    height: 50px;
+    border-radius: 50%;
+    border-color: #e8dfdf;
+    border-width: 2px;
+    border-style: solid;
+}
+
+
+p.Email
+{
+    font-size: 20px;
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
 }
 
 
@@ -75,10 +96,36 @@ div.ContentDivision
     overflow-y: auto; /* Enable scrolling */
     -ms-overflow-style: none; /* IE and Edge */
     scrollbar-width: none; /* Firefox */
-    background-color: whitesmoke;
+    background-color: white;
     color:black;
     overflow-x: hidden;
 } 
+
+button.ResumeButton
+{
+    background-color: #242E31;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: -50px;border-radius: 10px;
+}
+
+button.CVButton
+{
+    background-color: #242E31;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 35px;
+    padding-right: 35px;
+    margin-top: -50px;
+    border-radius: 10px;
+}
+
 
 h1.Title1
 {
@@ -90,6 +137,7 @@ h1.Title1
     font-size:50px;
     margin-left: 10px;
 }
+
 
 p.CurrentStatus
 {
@@ -103,14 +151,16 @@ p.CurrentStatus
     margin-top: -25px;
 }
 
+
 p.Intro
 {
-    font-family: "Play", sans-serif;
+  font-family: "Play", sans-serif;
   font-weight: 700;
   font-style: normal;
   font-size: 22px;
   text-align: center;
 }
+
 
 article.Motive
 {
@@ -125,6 +175,7 @@ article.Motive
         margin-right: 10px;
     
 }
+
 
 section.ResumeCVSection
 {
@@ -141,7 +192,6 @@ div.ContentDivision::-webkit-scrollbar  /*puesodo elements */
 }
 
 
-
 div.FlexContainer
 {
     
@@ -150,18 +200,27 @@ div.FlexContainer
     gap: 10px;
 }
 
+div.verticalLine
+{
+    border-left: 5px solid black;
+            height: 1290px; 
+            margin-left: 15px;
+            float:left;
+            margin-top: 5px;
+}
+
 div.EduSection
 {
-    background-color:  #04907A;
-    color: white;
-    
-    margin-left:100px;
-    font-family: "Exo", sans-serif;
+     background-color:  #242E31;
+     color: white;
+     margin-left:80px;
+     font-family: "Exo", sans-serif;
      font-optical-sizing: auto;
      font-weight: 400;
-     font-style: normal;   
-     
-     
+     font-style: normal;     
+     animation-name: blurTovisible;
+     animation-duration: 2s;
+     animation-timing-function: linear;
   
 }
 
@@ -176,79 +235,153 @@ h2.TitleEdu
  
 }
 
+
 section.CourseInfo
 {
     line-height: 5px;
     font-family: "Signika", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 500;
-  font-style: normal;
-  font-variation-settings:
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
     "GRAD" 0;
     font-size: 20px;
     margin-left: 10px;
     
 }
 
+
 section.Specializing
 {
     line-height: 15px;
     margin-left: 10px;
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 500;
+    font-style: normal;
     
 }
 
 
 div.ProjectSkillSection
 {
-    background-color: #04907A;
+    background-color:  #242E31;
     color: white;
+    margin-left:80px;
+    animation-name: blurTovisible;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+ 
     
-    
-    margin-left:100px;
+}
   
+section.Projects
+{
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    margin-left:10px;
+}
+
+
+
+
+h2.TitlePS
+{
+    font-size:30px;
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 10px;
 }
 
 
 div.FutureSection
 {
-    background-color: #04907A;
-    
-    
-    margin-left:100px;
+    background-color:  #242E31;
+    margin-left:80px;
     color: white;
-  
+    animation-name: blurTovisible;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    
 }
+
+section.FutureProjects
+{
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    margin-left:10px;
+}
+
+
+h2.TitleFuture
+{
+    font-size:30px;
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 10px;
+}
+
 
 div.CertiSection
 {
-    background-color: #04907A;
+    background-color:  #242E31;
     color: white;
-    
-    
-    margin-left:100px;
-   
+    margin-left:80px;
+    animation-name: blurTovisible;
+    animation-duration: 2s;
+    animation-timing-function: linear;
 }
 
+
+h2.TitleCerti
+{
+    font-size:30px;
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 10px;
+}
+
+
+ol.Certificates
+{
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
 
 
 div.WESection
 {
-    background-color:   #04907A;
+    background-color:    #242E31;
     color: white;
-    
-    
-    margin-left:100px;
+    margin-left:80px;
+    animation-name: blurTovisible;
+    animation-duration: 2s;
+    animation-timing-function: linear;
    
 }
 
-div.ContactSection
+
+h2.TitleWE
 {
-    background-color:   #04907A;
-    color: white;
-    
-    
-    margin-left:100px;
-   
+    font-size:30px;
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 10px;
+}
+
+
+p.Experience
+{
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    margin-left: 10px;
 }
 
 
@@ -262,6 +395,7 @@ div.Progress
     border-radius: 50px; /* Rounded corners */
 }
 
+
 div.Progress-bar
 {
     height: 5px;
@@ -274,5 +408,18 @@ div.Progress-bar
 }
 
 
+@keyframes blurTovisible
+{
+   0% 
+   {
+    transform: translate(1200px,0px);
+    opacity: 0;
+   }
+   100%
+   {
+    transform: translate(0px,0px);
+    opacity: 1;
+   }
 
+}
 
