@@ -232,6 +232,7 @@ div.verticalLine
     }
 }
 
+
 img.EducationLogo
 {   
     margin-top: -15px;
@@ -315,6 +316,7 @@ h2.TitleEdu
     font-weight: 400;
     font-style: normal;
     margin-left: 10px;
+    color:#FFFF00;
 }
 
 
@@ -327,14 +329,15 @@ section.CourseInfo
     font-style: normal;
     font-variation-settings:
     "GRAD" 0;
-    font-size: 20px;
+    font-size: 23px;
     margin-left: 10px;
+    
 }
 
 
 section.Specializing
 {
-    line-height: 15px;
+    line-height: 5px;
     margin-left: 10px;
     font-family: "Chakra Petch", sans-serif;
     font-weight: 500;
@@ -351,6 +354,17 @@ div.ProjectSkillSection
     animation-duration: 2s;
     animation-timing-function: linear;
  
+}
+
+h3.projectName
+{
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    margin-left:10px;
+    color:#ADD8E6;
+    text-decoration: none; 
+    font-size: 20px;
 }
   
 
@@ -370,6 +384,7 @@ h2.TitlePS
     font-weight: 400;
     font-style: normal;
     margin-left: 10px;
+    color:#FFFF00;
 }
 
 
@@ -388,9 +403,10 @@ div.FutureSection
 section.FutureProjects
 {
     font-family: "Chakra Petch", sans-serif;
-    font-weight: 500;
+    font-weight: 400;
     font-style: normal;
     margin-left:10px;
+    font-size: 13px;
 }
 
 
@@ -398,9 +414,10 @@ h2.TitleFuture
 {
     font-size:30px;
     font-family: "Lilita One", sans-serif;
-    font-weight: 400;
+    font-weight: 200;
     font-style: normal;
     margin-left: 10px;
+    color:#FFFF00;
 }
 
 
@@ -422,6 +439,7 @@ h2.TitleCerti
     font-weight: 400;
     font-style: normal;
     margin-left: 10px;
+    color:#FFFF00;
 }
 
 
@@ -452,6 +470,7 @@ h2.TitleWE
     font-weight: 400;
     font-style: normal;
     margin-left: 10px;
+    color:#FFFF00;
 }
 
 
