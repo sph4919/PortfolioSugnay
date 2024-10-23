@@ -1,0 +1,152 @@
+/* XR media */
+
+@media only screen and (max-width: 414px)
+ {
+    nav.NavigationDivision
+    {
+      display: none;
+    }
+    div.BlankGrid
+    {
+        display: none;
+    }
+   
+    div.ContentDivision
+    {
+        width: 90vw;
+    }
+
+    button.ResumeButton
+   {
+    background-color: #242E31;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    margin-right: 0px;
+    margin-top: 50px;
+    border-radius: 10px;
+    
+  }
+
+   button.CVButton
+  {
+    background-color: #242E31;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: 50px;
+    margin-right: -50px;
+    border-radius: 10px;
+  }
+
+section.CourseInfo
+{
+  line-height: 20px;
+}
+
+section.Specializing
+{
+  line-height: 20px; 
+}
+
+
+
+div.verticalLine
+{
+    border-left: 5px solid black;
+    height: 1900px; 
+    margin-left: 30px;
+    float:left;
+    margin-top: 15px;
+    animation-name: linedisplay;
+    animation-duration: 5s;
+    z-index: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+
+@keyframes linedisplay
+{
+    0%
+    {
+      height: 0px;
+    }
+    100%
+    {
+      height: 1900px;
+    }
+}
+
+
+img.EducationLogo
+{   
+    margin-top: -15px;
+    height: 60px;
+    border-radius: 50%;
+    z-index: 1;
+    margin-left: -33px;
+    margin-bottom: 410px;
+    border-color: #000000;
+    border-width: 2px;
+    border-style: solid;
+}
+
+img.PsLogo
+{
+    height: 60px;
+    border-radius: 50%;
+    z-index: 1;
+    margin-left: -33px;
+    border-color: #000000;
+    border-width: 2px;
+    border-style: solid;
+    margin-bottom: 800px;
+}
+
+img.CertiLogo
+{
+    height: 60px;
+    border-radius: 50%;
+    z-index: 1;
+    margin-left: -33px;   
+    border-color: #000000;
+    border-width: 2px;
+    border-style: solid;
+    margin-bottom: 130px;
+}
+
+img.FutureLogo
+{
+    height: 60px;
+    border-radius: 50%;
+    z-index: 1;
+    margin-left: -33px;    
+    border-color: #000000;
+    border-width: 2px;
+    border-style: solid;
+    margin-bottom: 280px;
+}
+
+img.WELogo
+{
+    height: 60px;
+    border-radius: 50%;
+    z-index: 1;
+    margin-left: -33px; 
+    border-color: #000000;
+    border-width: 2px;
+    border-style: solid;
+}
+
+
+    
+ }

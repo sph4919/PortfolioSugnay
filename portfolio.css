@@ -84,10 +84,10 @@ img.ContactImgs
 p.Email
 {
     font-size: 20px;
-    font-family: "Cinzel", serif;
-    font-optical-sizing: auto;
+    font-family: "Chakra Petch", sans-serif;
     font-weight: 500;
     font-style: normal;
+  
 }
 
 
@@ -364,7 +364,7 @@ h3.projectName
     margin-left:10px;
     color:#ADD8E6;
     text-decoration: none; 
-    font-size: 20px;
+    font-size: 23px;
 }
   
 
