@@ -30,20 +30,6 @@
     
   }
 
-   button.CVButton
-  {
-    background-color: #242E31;
-    color: white;
-    font-size: 18px;
-    text-align: center;
-    padding-top: 18px;
-    padding-bottom: 18px;
-    padding-left: 25px;
-    padding-right: 25px;
-    margin-top: 50px;
-    margin-right: -50px;
-    border-radius: 10px;
-  }
 
 section.CourseInfo
 {

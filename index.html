@@ -22,16 +22,16 @@
 
 
     <link rel="shortcut icon" href="Images/favicon.ico" type="image/x-icon">
+    <script src="js/eventHandler.js"></script>
 </head>
 
 
 <body> 
-
+  <img src="Images/menu.png" class="navImage" id="toggle">
 <div class="container">
-        
-  <div class="BlankGrid">
-        <nav class="NavigationDivision" >
-              
+       
+  <div class="BlankGrid" id="hideblank">
+        <nav class="NavigationDivision" id="hideNavigation">
               <section class="NavigationBar">
                 <img src ="Images/FinalPorfilePicture.jpg" alt="You are not Lucky."  class="ProfileImage">
                     <p class="NavigationData">About</p>
@@ -56,7 +56,7 @@
         
         
         
-  <div class="ContentDivision">
+  <div class="ContentDivision" id="ContentSection">
 
 
       <section class="ProfileSection">
@@ -64,7 +64,7 @@
              <h1 class="Title1">Sugnay Patel</h1>
           <section class="ResumeCVSection">
                 <a href = "Resume.pdf" target="_main"><button class="ResumeButton">Resume</button></a>             
-                <a href = "Resume.pdf" target="_main"><button class="CVButton">CV</button></a>       
+     
           </section>
              <p class="CurrentStatus"> Technology Aficionados | U <sub>of</sub> R Student </p>
              <hr>
@@ -99,7 +99,7 @@
              </section>
              <section class="Specializing">
              <p class="EducationData"> Specializing in DSA, Full Stack, AI Technology and CyberSecurity. </p>
-             <p class="EducationData">Relevant Coursework: Advanced Algorithms, Machine Learning, and Big Data Analytics , Responsive websites</p>
+             <p class="EducationData" id="EducationLast">Relevant Coursework: Advanced Algorithms, Machine Learning, and Big Data Analytics , Responsive websites</p>
              </section>
       </div> 
 
@@ -165,6 +165,7 @@
 </div>
  
 </body>
+<script src="js/index.js"></script>
 </html>
 
 

@@ -38,10 +38,11 @@ nav.NavigationDivision
     float:left;
     left:0px;
     overflow-y: hidden;
-    width: 22vw;
+    width: 20vw;
     position: absolute; 
-    margin-left:50px; 
+    margin-left:60px; 
 } 
+
 
 
 img.ProfileImage
@@ -68,6 +69,19 @@ p.NavigationData:hover  /*puesodo class */
     color: #e6c404;
     font-size: 25px;
     transition: 0.2s ease-out;  
+}
+
+img.navImage
+{
+    height: 45px;
+    border-radius: 50%;
+    border:black;
+    border-style: solid;
+    position: absolute;
+z-index:99;
+left:5px;
+top:10px;
+   
 }
 
 
@@ -99,6 +113,8 @@ div.ContentDivision
     background-color: white;
     color:black;
     overflow-x: hidden;
+    margin-left:0px;
+    width: 72vw;
 } 
 
 
@@ -115,20 +131,6 @@ button.ResumeButton
 }
 
 
-button.CVButton
-{
-    background-color: #242E31;
-    color: white;
-    font-size: 30px;
-    text-align: center;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    padding-left: 35px;
-    padding-right: 35px;
-    margin-top: -50px;
-    border-radius: 10px;
-    margin-right: -50px;
-}
 
 
 h1.Title1
