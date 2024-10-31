@@ -6,6 +6,13 @@
     {
       display: none;
     }
+
+    
+    img.navImage
+    {
+      display: none;
+    }
+    
     div.BlankGrid
     {
         display: none;

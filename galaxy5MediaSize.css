@@ -10,6 +10,12 @@
     {
         display: none;
     }
+
+    
+    img.navImage
+    {
+      display: none;
+    }
    
     div.ContentDivision
     {
@@ -24,8 +30,8 @@
     text-align: center;
     padding-top: 18px;
     padding-bottom: 18px;
-    margin-right: 0px;
-    margin-top: 0px;
+    margin-right: -40px;
+    margin-top: 40px;
     border-radius: 10px;
     
   }

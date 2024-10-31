@@ -6,6 +6,12 @@
     {
       display: none;
     }
+
+    img.navImage
+    {
+      display: none;
+    }
+
     div.BlankGrid
     {
         display: none;
@@ -24,9 +30,10 @@
     text-align: center;
     padding-top: 18px;
     padding-bottom: 18px;
-    margin-right: 0px;
-    margin-top: 50px;
+    margin-right: -40px;
+    margin-top: 30px;
     border-radius: 10px;
+  
     
   }
 
