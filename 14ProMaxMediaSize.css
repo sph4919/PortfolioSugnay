@@ -139,6 +139,43 @@ img.WELogo
     border-style: solid;
 }
 
+div.ExtraContact
+{
+    background-color: #242E31;
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    background-color: #242E31;
+    color: white;
+    width: 100vw;
+    text-align: center;
+    margin-left: 0px;
+    height: 20vh;
+    display: block;
+    margin-top: 20px;
+}
+
+p.Email
+{
+    font-size: 20px;
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    margin-right: 20px;
+    margin-top:-2px;
+  
+}
+
+
+img.ContactImgs
+{
+    height: 50px;
+    border-radius: 50%;
+    border-color: #e8dfdf;
+    border-width: 2px;
+    border-style: solid;
+    margin-top: 20px;
+}
 
     
  }

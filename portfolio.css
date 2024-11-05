@@ -525,3 +525,18 @@ div.Progress-bar
 
 }
 
+
+div.ExtraContact
+{
+    background-color: #242E31;
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    background-color: #242E31;
+    color: white;
+    display: none; 
+    width: 100vw;
+    text-align: center;
+    margin-left: -200px;
+    height: 10vh;
+}
