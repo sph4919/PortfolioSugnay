@@ -1,13 +1,12 @@
-/* surface duo pro */
+/* medium */
 
-@media only screen and (max-width: 541px) and (min-width:540px)
+@media only screen and (max-width: 376px) and (min-width: 321px)
  {
     nav.NavigationDivision
     {
       display: none;
     }
 
-    
     img.navImage
     {
       display: none;
@@ -27,18 +26,18 @@
    {
     background-color: #242E31;
     color: white;
-    font-size: 18px;
+    font-size: 16px;
     text-align: center;
     padding-top: 18px;
     padding-bottom: 18px;
     margin-right: -40px;
-    margin-top: 20px;
+    margin-top: 30px;
     border-radius: 10px;
+  
     
   }
 
    
-
 section.CourseInfo
 {
   line-height: 20px;
@@ -54,7 +53,7 @@ section.Specializing
 div.verticalLine
 {
     border-left: 5px solid black;
-    height: 1640px; 
+    height: 2550px; 
     margin-left: 30px;
     float:left;
     margin-top: 15px;
@@ -76,7 +75,7 @@ div.verticalLine
     }
     100%
     {
-      height: 1640px;
+      height: 2550px;
     }
 }
 
@@ -88,7 +87,7 @@ img.EducationLogo
     border-radius: 50%;
     z-index: 1;
     margin-left: -33px;
-    margin-bottom: 370px;
+    margin-bottom: 490px;
     border-color: #000000;
     border-width: 2px;
     border-style: solid;
@@ -103,7 +102,7 @@ img.PsLogo
     border-color: #000000;
     border-width: 2px;
     border-style: solid;
-    margin-bottom: 610px;
+    margin-bottom: 940px;
 }
 
 img.CertiLogo
@@ -115,7 +114,7 @@ img.CertiLogo
     border-color: #000000;
     border-width: 2px;
     border-style: solid;
-    margin-bottom: 130px;
+    margin-bottom: 140px;
 }
 
 img.FutureLogo
@@ -127,7 +126,7 @@ img.FutureLogo
     border-color: #000000;
     border-width: 2px;
     border-style: solid;
-    margin-bottom: 230px;
+    margin-bottom: 710px;
 }
 
 img.WELogo
@@ -178,6 +177,8 @@ img.ContactImgs
     border-style: solid;
     margin-top: 20px;
 }
+
+
 
     
  }

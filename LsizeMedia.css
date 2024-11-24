@@ -1,6 +1,6 @@
 /* l size */
 
-@media only screen and (max-width: 426px) and (min-width:425px)
+@media only screen and (max-width: 426px) and (min-width:376px)
  {
     nav.NavigationDivision
     {
@@ -53,7 +53,7 @@ section.Specializing
 div.verticalLine
 {
     border-left: 5px solid black;
-    height: 1350px; 
+    height: 2135px; 
     margin-left: 30px;
     float:left;
     margin-top: 15px;
@@ -75,7 +75,7 @@ div.verticalLine
     }
     100%
     {
-      height: 1350px;
+      height: 2135px;
     }
 }
 
@@ -87,7 +87,7 @@ img.EducationLogo
     border-radius: 50%;
     z-index: 1;
     margin-left: -33px;
-    margin-bottom: 330px;
+    margin-bottom: 400px;
     border-color: #000000;
     border-width: 2px;
     border-style: solid;
@@ -102,7 +102,7 @@ img.PsLogo
     border-color: #000000;
     border-width: 2px;
     border-style: solid;
-    margin-bottom: 450px;
+    margin-bottom: 775px;
 }
 
 img.CertiLogo
@@ -126,7 +126,7 @@ img.FutureLogo
     border-color: #000000;
     border-width: 2px;
     border-style: solid;
-    margin-bottom: 170px;
+    margin-bottom: 580px;
 }
 
 img.WELogo
