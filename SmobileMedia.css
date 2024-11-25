@@ -1,6 +1,6 @@
 /* s size */
 
-@media only screen and (max-width: 320px) and (min-width:250px)
+@media only screen and (min-width: 250px) and  (max-width:320px)
  {
     nav.NavigationDivision
     {
@@ -63,6 +63,7 @@ div.verticalLine
     display: flex;
     flex-direction: column;
     align-items: center;
+    display: none;
    
 }
 
