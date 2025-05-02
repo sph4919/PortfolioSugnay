@@ -1,0 +1,109 @@
+<p><u>Contact</u></p>
+
+                    <a href="https://www.linkedin.com/in/patel-sugnay-825726226/" target="_main"><img src="Images/Linkidein.jpg" alt="linkedin"  class="ContactImgs"></a>   
+                    <a href="https://github.com/sph4919?tab=repositories" target="_main"><img src="Images/github-6980894_1920.png" alt="linkedin" class="ContactImgs"></a>  
+                    <br>
+                    <p class="Email">Email: patelsugnay49@gmail.com</p>    
+
+
+
+
+
+
+
+
+
+
+
+                    ///////////////////////////////
+
+
+
+
+
+
+                    <div class="FlexContainer">
+    
+      <div class="EduSection" id ="EducationSC">
+            <h2 class="TitleEdu">Education</h2>
+             <section class="CourseInfo">
+              <p class="EducationData">Bacherlors in Computer Science </p>   
+              <p class="EducationData">Septemer 2022 - Present</p>                        
+              <p class="EducationData">Major : Computer Science</p>
+              <p class="EducationData">Minor : Statistics</p>
+              <br>
+             </section>
+             <section class="Specializing">
+             <p class="EducationData"> Specializing in DSA, Full Stack, AI Technology and CyberSecurity. </p>
+             <p class="EducationData" id="EducationLast">Relevant Coursework: Advanced Algorithms, Machine Learning, and Big Data Analytics , Responsive websites</p>
+             </section>
+      </div> 
+
+      <div class="ProjectSkillSection" id ="PSSC">
+             <h2 class="TitlePS">Projects and skills</h2>
+
+             <section class="Projects">
+             <a href="https://github.com/sph4919/SchedulingAlgoin-c-" target="_blank"><h3 class="projectName">Scheduling Algorithms (Academic Project)                           2024</h3></a>
+             <p>•	Designed to understand modern day scheduling algorithms which are currently in used for several Operating systems. Advance C++ concepts of vectors , searching algorithms , DSA like array and queue are used for development of this project. Link of checking out source code is uploaded on GitHub – Scheduling.</p>
+             <span>C++</span><div class="Progress">
+                                  <div class="Progress-bar"></div>
+                            </div>
+                        
+             <a href="https://github.com/sph4919/TicTacToeGame" target="_blank"><h3 class="projectName"> AI version control game (Personal Project)                       2023</h3></a>
+             <p> •	Designed to learn Object oriented programming concepts in C++ which leads to better code modularity, Reusability, data abstraction, Encapsulation, and scalability etc. This game is developed using C++ concepts of randomization. Link of checking out source code is uploaded on GitHub – TicTacToeAIversion.</p>
+             <span>C++</span><div class="Progress">
+                                  <div class="Progress-bar"></div>
+                             </div>
+          <br>
+          </section>
+      </div>
+
+
+
+      <div class="CertiSection" id="CertiSC">
+            <h2 class="TitleCerti">Certification</h2>
+            <ol class="Certificates">
+                <li>Sql basic</li>
+                <li>Sql intermediate</li>
+                <li>Python Basic</li>
+                <li>CSS Basics</li>
+            </ol>
+     </div> 
+
+
+   
+    <div class="FutureSection" id ="FutureSC">
+           <h2 class="TitleFuture" >Future projects and researches</h2>
+           <section class="FutureProjects">
+            <a href="https://github.com/sph4919/RR" target="_blank"><h3 class="projectName">Marketplace Website (Personal Project) (Ongoing 2024)<h3> </a>                       
+          <p class="projectDescription"> •	Designing to act as intermediary client-Server Non – Commercial Model using HTML, CSS, JavaScript, MySQL, PHP, etc. </p> 
+          <h3 class="projectName">Multiple Parcel Tracker (Personal Project) (Ongoing Feb 2025)<h3>                        
+            <p class="projectDescription"> •
+               Multi-Parcel Tracker website, built with Django, provides secure parcel tracking from various courier services in one place. Users get real-time updates, detailed tracking information, and notification alerts. The interface is modern, responsive, and intuitive, ensuring smooth user experience and data protection.	 </p> 
+        
+        </section>
+     </div> 
+
+
+   
+     <div class="WESection" id ="WESC">
+           <h2 class="TitleWE">Work Experience</h2>
+           <h3 class="projectName">Training Supervisor - Blackbird Security                                          Dec 2022 – Present </h3>
+           <p class="Experience">
+            •	Actively developing and implementing programs for the security officers for different sites according to the needs of clients that increases their overall efficiency by 40% which leads to the overall development of company.<br>
+            •	Evaluating performance and Ensuring compliance to meet up the industries level. Collaborations with senior management for alignment of training programs which leads to the performance increment of 3 % for overall company.<br>
+            •	Staying updated on industry trends and collaborating with other lawful service agencies for ensuring public safety.
+            </p>
+      </div> 
+     </div>
+
+     <div class="ExtraContact">
+                  <a href="https://www.linkedin.com/in/patel-sugnay-825726226/" target="_main"><img src="Images/Linkidein.jpg" alt="linkedin"  class="ContactImgs"></a>   
+                  <a href="https://github.com/sph4919?tab=repositories" target="_main"><img src="Images/github-6980894_1920.png" alt="linkedin" class="ContactImgs"></a>  
+                  <br>
+                  <p class="Email">Email: patelsugnay49@gmail.com</p> 
+    </div>
+  </div>
+
+</div>
+ 
