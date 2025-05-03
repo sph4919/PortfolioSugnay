@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sugnay Patel | Full Stack Projects</title>
+  <link rel="stylesheet" href="styles/projects.css">
+  <link rel="shortcut icon" href="Images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+  <div class="projects-container">
+    <div class="ProjectSkillSection" id="PSSC">
+      <h2 class="TitlePS">Full Stack Projects</h2>
+      <div class="empty-state">
+        <img src="Images/under-construction.png" alt="Under Construction" class="empty-icon">
+        <h3>No Full Stack Projects Updated Yet</h3>
+        <p>This section is currently under development. Check back soon for my complete web applications!</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

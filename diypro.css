@@ -1,0 +1,64 @@
+/* styles/diy-projects.css */
+.diy-theme {
+    --primary: #F59E0B;
+    --primary-light: #FBBF24;
+    --secondary: #78350F;
+    --accent: #84CC16;
+    --text: #431407;
+  }
+  
+  .diy-theme .ProjectSkillSection {
+    border-left: 4px solid var(--primary);
+    background: linear-gradient(to bottom right, #FEF3C7, #FFFFFF);
+  }
+  
+  .diy-theme .TitlePS {
+    color: var(--secondary);
+  }
+  
+  .diy-theme .TitlePS::after {
+    content: '';
+    display: block;
+    width: 80px;
+    height: 3px;
+    background: var(--accent);
+    margin: 10px auto;
+  }
+  
+  .diy-theme .empty-state h3 {
+    color: var(--secondary);
+  }
+  
+  .diy-theme .coming-soon {
+    margin-top: 20px;
+    color: var(--secondary);
+    font-weight: 500;
+  }
+  
+  .diy-theme .progress-dots {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 10px;
+  }
+  
+  .diy-theme .dot {
+    width: 12px;
+    height: 12px;
+    background-color: var(--accent);
+    border-radius: 50%;
+    animation: pulse 1.5s infinite ease-in-out;
+  }
+  
+  .diy-theme .dot:nth-child(2) {
+    animation-delay: 0.5s;
+  }
+  
+  .diy-theme .dot:nth-child(3) {
+    animation-delay: 1s;
+  }
+  
+  @keyframes pulse {
+    0%, 100% { transform: scale(0.8); opacity: 0.5; }
+    50% { transform: scale(1.2); opacity: 1; }
+  }

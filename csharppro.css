@@ -1,0 +1,69 @@
+/* styles/csharp-projects.css */
+.csharp-theme {
+    --primary: #7C3AED;
+    --primary-light: #8B5CF6;
+    --secondary: #5B21B6;
+    --accent: #A78BFA;
+    --text: #4C1D95;
+  }
+  
+  .csharp-theme .ProjectSkillSection {
+    border-left: 4px solid var(--primary);
+    background: linear-gradient(to bottom right, #F5F3FF, #FFFFFF);
+  }
+  
+  .csharp-theme .vs-window {
+    background: #1E1E1E;
+    border-radius: 8px;
+    max-width: 600px;
+    margin: 0 auto;
+    overflow: hidden;
+    color: #D4D4D4;
+    font-family: 'Consolas', monospace;
+    text-align: left;
+  }
+  
+  .csharp-theme .vs-tabs {
+    background: #2D2D2D;
+    padding: 8px 10px;
+    display: flex;
+    border-bottom: 1px solid #252526;
+  }
+  
+  .csharp-theme .vs-tab {
+    padding: 4px 10px;
+    font-size: 0.9rem;
+    border-radius: 4px 4px 0 0;
+    margin-right: 5px;
+  }
+  
+  .csharp-theme .vs-tab.active {
+    background: #1E1E1E;
+    color: white;
+  }
+  
+  .csharp-theme .vs-editor {
+    padding: 15px;
+    line-height: 1.8;
+  }
+  
+  .csharp-theme .vs-keyword {
+    color: #569CD6;
+  }
+  
+  .csharp-theme .vs-class {
+    color: #4EC9B0;
+  }
+  
+  .csharp-theme .vs-string {
+    color: #CE9178;
+  }
+  
+  .csharp-theme .blinking-cursor {
+    animation: blink 1s step-end infinite;
+  }
+  
+  @keyframes blink {
+    from, to { opacity: 0; }
+    50% { opacity: 1; }
+  }

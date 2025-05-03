@@ -1,0 +1,58 @@
+/* styles/extension-projects.css */
+.extension-theme {
+    --primary: #8B5CF6;
+    --primary-light: #A78BFA;
+    --secondary: #5B21B6;
+    --accent: #C4B5FD;
+    --text: #4C1D95;
+  }
+  
+  .extension-theme .ProjectSkillSection {
+    border-left: 4px solid var(--primary);
+    background: linear-gradient(to bottom right, #F5F3FF, #FFFFFF);
+  }
+  
+  .extension-theme .browser-window {
+    border: 1px solid #DDD;
+    border-radius: 8px;
+    max-width: 500px;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  
+  .extension-theme .browser-toolbar {
+    background: #EDE9FE;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .extension-theme .browser-buttons {
+    display: flex;
+    gap: 6px;
+  }
+  
+  .extension-theme .browser-buttons span {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #A78BFA;
+  }
+  
+  .extension-theme .browser-url {
+    flex-grow: 1;
+    background: white;
+    margin: 0 10px;
+    padding: 3px 8px;
+    border-radius: 15px;
+    font-size: 0.8rem;
+    color: #5B21B6;
+    text-align: center;
+  }
+  
+  .extension-theme .browser-content {
+    padding: 20px;
+    text-align: center;
+    background: white;
+    color: var(--text);
+  }

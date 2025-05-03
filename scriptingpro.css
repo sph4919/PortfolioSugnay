@@ -1,0 +1,64 @@
+/* styles/scripting-projects.css */
+.scripting-theme {
+    --primary: #10B981;
+    --primary-light: #34D399;
+    --secondary: #065F46;
+    --accent: #6EE7B7;
+    --text: #064E3B;
+  }
+  
+  .scripting-theme .ProjectSkillSection {
+    border-left: 4px solid var(--primary);
+    background: linear-gradient(to bottom right, #ECFDF5, #FFFFFF);
+  }
+  
+  .scripting-theme .terminal {
+    background: #1E293B;
+    border-radius: 8px;
+    max-width: 500px;
+    margin: 0 auto;
+    color: #F8FAFC;
+    text-align: left;
+  }
+  
+  .scripting-theme .terminal-header {
+    background: #334155;
+    padding: 8px 12px;
+    border-radius: 8px 8px 0 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .scripting-theme .terminal-buttons {
+    display: flex;
+    gap: 6px;
+  }
+  
+  .scripting-theme .terminal-btn {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+  }
+  
+  .scripting-theme .terminal-btn.red { background: #EF4444; }
+  .scripting-theme .terminal-btn.yellow { background: #F59E0B; }
+  .scripting-theme .terminal-btn.green { background: #10B981; }
+  
+  .scripting-theme .terminal-title {
+    margin-left: 10px;
+    font-size: 0.8rem;
+  }
+  
+  .scripting-theme .terminal-body {
+    padding: 15px;
+    font-family: 'Courier New', monospace;
+  }
+  
+  .scripting-theme .blinking-cursor {
+    animation: blink 1s step-end infinite;
+  }
+  
+  @keyframes blink {
+    from, to { opacity: 0; }
+    50% { opacity: 1; }
+  }

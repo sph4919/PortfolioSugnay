@@ -364,7 +364,7 @@ hr {
   }
 
   /* Projects and Skills Section */
-.ProjectSkillSection {
+/* .ProjectSkillSection {
     margin-top: 2.5rem;
     padding: 1.5rem;
     background: rgba(248, 250, 252, 0.7);
@@ -467,6 +467,138 @@ hr {
     transition: width 1s ease;
   }
   
+/* Project Categories Flexbox */
+.categoryContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.categoryBox {
+  flex: 1 1 300px;
+  min-height: 200px;
+  background: white;
+  border-radius: 10px;
+  padding: 1.5rem;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+}
+
+.categoryBox::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 5px;
+}
+
+.categoryBox:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.categoryTitle {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.categoryDesc {
+  color: var(--text);
+  margin-bottom: 1rem;
+  flex-grow: 1;
+}
+
+.skillsPreview {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.skillsPreview span {
+  background: rgba(59, 130, 246, 0.1);
+  color: var(--primary);
+  padding: 0.3rem 0.8rem;
+  border-radius: 20px;
+  font-size: 0.8rem;
+}
+
+/* Category-specific colors */
+.diy {
+  border-top: 5px solid #F59E0B;
+}
+.diy::after {
+  background: #F59E0B;
+}
+.diy .categoryTitle {
+  color: #F59E0B;
+}
+
+.fullstack {
+  border-top: 5px solid #3B82F6;
+}
+.fullstack::after {
+  background: #3B82F6;
+}
+.fullstack .categoryTitle {
+  color: #3B82F6;
+}
+
+.extensions {
+  border-top: 5px solid #10B981;
+}
+.extensions::after {
+  background: #10B981;
+}
+.extensions .categoryTitle {
+  color: #10B981;
+}
+
+.scripting {
+  border-top: 5px solid #8B5CF6;
+}
+.scripting::after {
+  background: #8B5CF6;
+}
+.scripting .categoryTitle {
+  color: #8B5CF6;
+}
+
+.cpp {
+  border-top: 5px solid #EF4444;
+}
+.cpp::after {
+  background: #EF4444;
+}
+.cpp .categoryTitle {
+  color: #EF4444;
+}
+
+.csharp {
+  border-top: 5px solid #EC4899;
+}
+.csharp::after {
+  background: #EC4899;
+}
+.csharp .categoryTitle {
+  color: #EC4899;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .categoryBox {
+    flex: 1 1 100%;
+  }
+}
+
   /* Certifications Section */
   .CertiSection {
     margin-top: 2.5rem;
@@ -548,7 +680,7 @@ hr {
   
   .future .projectName {
     color: #10b981;
-  }
+  } */
   
   /* Work Experience Section */
   .WESection {

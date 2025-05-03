@@ -107,3 +107,39 @@
 
 </div>
  
+
+
+
+
+
+   <!-- Projects and Skills Section -->
+        <div class="ProjectSkillSection" id="PSSC">
+          <h2 class="TitlePS">Projects and Skills</h2>
+          <section class="Projects">
+            <div class="projectCard">
+              <a href="https://github.com/sph4919/SchedulingAlgoin-c-" target="_blank" class="projectLink">
+                <h3 class="projectName">Scheduling Algorithms (Academic Project) <span class="projectYear">2024</span></h3>
+              </a>
+              <p class="projectDescription">• Designed to understand modern day scheduling algorithms which are currently in used for several Operating systems. Advanced C++ concepts of vectors, searching algorithms, DSA like array and queue are used for development of this project.</p>
+              <div class="skillTag">
+                <span>C++</span>
+                <div class="Progress">
+                  <div class="Progress-bar" style="width: 90%"></div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="projectCard">
+              <a href="https://github.com/sph4919/TicTacToeGame" target="_blank" class="projectLink">
+                <h3 class="projectName">AI Version Control Game (Personal Project) <span class="projectYear">2023</span></h3>
+              </a>
+              <p class="projectDescription">• Designed to learn Object oriented programming concepts in C++ which leads to better code modularity, Reusability, data abstraction, Encapsulation, and scalability etc. This game is developed using C++ concepts of randomization.</p>
+              <div class="skillTag">
+                <span>C++</span>
+                <div class="Progress">
+                  <div class="Progress-bar" style="width: 85%"></div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
