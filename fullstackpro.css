@@ -1,53 +1,85 @@
-/* styles/fullstack-projects.css */
-.fullstack-theme {
-    --primary: #2563EB;
-    --primary-light: #3B82F6;
-    --secondary: #1E40AF;
-    --accent: #60A5FA;
-    --text: #1E3A8A;
-  }
-  
-  .fullstack-theme .ProjectSkillSection {
-    border-left: 4px solid var(--primary);
-    background: linear-gradient(to bottom right, #EFF6FF, #FFFFFF);
-  }
-  
-  .fullstack-theme .TitlePS {
-    color: var(--secondary);
-    text-align: center;
-  }
-  
-  .fullstack-theme .empty-state {
-    padding: 2rem 0;
-  }
-  
-  .fullstack-theme .tech-stack {
-    font-size: 2rem;
-    margin-bottom: 1rem;
-    color: var(--primary);
-  }
-  
-  .fullstack-theme .tech-icon {
-    display: inline-block;
-    margin: 0 5px;
-  }
-  
-  .fullstack-theme .code-loader {
-    font-size: 1.5rem;
-    font-weight: bold;
-    margin-top: 20px;
-    color: var(--primary);
-  }
-  
-  .fullstack-theme .code-loader span {
-    animation: blink 1.4s infinite both;
-  }
-  
-  .fullstack-theme .code-loader span:nth-child(2) {
-    animation-delay: 0.2s;
-  }
-  
-  @keyframes blink {
-    0%, 100% { opacity: 0.2; }
-    50% { opacity: 1; }
-  }
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f6f8;
+  color: #333;
+}
+
+.projects-container {
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.TitlePS {
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 40px;
+  color: #222;
+}
+
+.project-card {
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+.project-thumbnail {
+  width: 300px;
+  height: auto;
+  object-fit: cover;
+}
+
+.project-details {
+  padding: 20px;
+  flex: 1;
+}
+
+.project-details h3 {
+  margin-top: 0;
+  font-size: 24px;
+}
+
+.project-details p {
+  margin: 10px 0;
+}
+
+.tech-list {
+  padding-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.tech-list li {
+  margin-bottom: 5px;
+}
+
+.project-links a {
+  display: inline-block;
+  margin-right: 15px;
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.project-links a:hover {
+  color: #0056b3;
+}
+
+.coming-soon {
+  font-style: italic;
+  font-size: 14px;
+  color: #888;
+  margin-top: 10px;
+}
