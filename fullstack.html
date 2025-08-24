@@ -2,35 +2,77 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Sugnay Patel | Full Stack Projects</title>
-  <link rel="stylesheet" href="fullstackpro.css"/>
-  <link rel="shortcut icon" href="Images/favicon.ico" type="image/x-icon" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sugnay Patel | Full‑Stack Projects</title>
+
+  <!-- Favicon -->
+  <link rel="icon" href="Images/favicon.ico" sizes="any" />
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="fullstackpro.css" />
+
+  <!-- Meta (nice to have) -->
+  <meta name="description" content="Full‑stack projects by Sugnay Patel: demos, tech stacks, and source code." />
+  <meta name="color-scheme" content="light dark" />
 </head>
 <body>
-  <div class="projects-container">
-    <div class="ProjectSkillSection" id="PSSC">
-      <h2 class="TitlePS">Full Stack Projects</h2>
-
-      <div class="project-card">
-        <img src="Images/SimpleHireV2Logo.png" alt="SimplyHire Preview" class="project-thumbnail"/>
-        <div class="project-details">
-          <h3>SimplyHire</h3>
-          <p>A full-stack job/service hiring platform with authentication, session handling, and SQL integration.</p>
-          <ul class="tech-list">
-            <li>Frontend: HTML, CSS, JavaScript</li>
-            <li>Backend: Node.js (Express), hosted on Render</li>
-            <li>Database: SQL (FreeDB.tech)</li>
-            <li>Features: Auth, Sessions, CORS, Responsive Design</li>
-          </ul>
-          <div class="project-links">
-            <a href="https://sph4919.github.io/Simplyhire/" target="_blank">🔗 Live Site</a>
-            <a href="https://github.com/sph4919/Simplyhire" target="_blank">💻 GitHub Repo</a>
-          </div>
-          <p class="coming-soon">Upcoming: Forgot Password, Role-based Dashboard, Enhanced UX</p>
-        </div>
-      </div>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="page-title">Full‑Stack Projects</h1>
+      <p class="page-subtitle">Selected builds with live demos and source code</p>
     </div>
-  </div>
+  </header>
+
+  <main id="projects" class="container" aria-labelledby="projects-heading">
+    <h2 id="projects-heading" class="sr-only">Projects List</h2>
+
+    <!-- Project Card -->
+    <article class="project-card" itemscope itemtype="https://schema.org/SoftwareApplication">
+      <div class="project-media">
+        <img
+          src="Images/SimpleHireV2Logo.png"
+          alt="SimplyHire application logo"
+          class="project-thumb"
+          loading="lazy"
+        />
+      </div>
+
+      <div class="project-content">
+        <header class="project-header">
+          <h3 class="project-title" itemprop="name">SimplyHire</h3>
+          <p class="project-blurb" itemprop="description">
+            A full‑stack job/service hiring platform with authentication, session handling, and SQL integration.
+          </p>
+        </header>
+
+        <ul class="tech-list">
+          <li><strong>Frontend:</strong> HTML, CSS, JavaScript</li>
+          <li><strong>Backend:</strong> Node.js (Express), hosted on Render</li>
+          <li><strong>Database:</strong> SQL (FreeDB.tech)</li>
+          <li><strong>Features:</strong> Auth, Sessions, CORS, Responsive Design</li>
+        </ul>
+
+        <div class="project-links" role="group" aria-label="Project links">
+          <a class="btn btn-primary" href="https://sph4919.github.io/Simplyhire/" target="_blank" rel="noopener noreferrer">Live Site</a>
+          <a class="btn btn-ghost" href="https://github.com/sph4919/Simplyhire" target="_blank" rel="noopener noreferrer">GitHub Repo</a>
+        </div>
+
+        <p class="coming-soon" aria-live="polite">
+          Upcoming: Forgot Password, Role‑based Dashboard, Enhanced UX
+        </p>
+      </div>
+    </article>
+
+    <!-- Duplicate the <article> above for more projects as you add them -->
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>© <span id="year"></span> Sugnay Patel</small>
+    </div>
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+  </footer>
 </body>
 </html>
