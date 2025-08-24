@@ -1,22 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Sugnay Patel | DIY Projects</title>
-  <link rel="stylesheet" href="diypro.css">
-  <link rel="shortcut icon" href="Images/favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="Images/favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="diypro.css" />
+  <meta name="color-scheme" content="light dark" />
 </head>
 <body>
   <div class="projects-container diy-theme">
-    <div class="ProjectSkillSection" id="PSSC">
+    <section class="ProjectSkillSection" id="PSSC">
       <h2 class="TitlePS">DIY Projects</h2>
-      <div class="empty-state">
-        <img src="Images/diy-icon.png" alt="DIY Icon" class="empty-icon">
-        <h3>No DIY Projects Updated Yet</h3>
+
+      <!-- ============ SMART DRIVE CARD ============ -->
+      <article class="diy-card" itemscope itemtype="https://schema.org/SoftwareSourceCode">
+        <header class="diy-card__header">
+          <h3 class="diy-card__title" itemprop="name">Smart Drive</h3>
+          <p class="diy-card__subtitle">Arduino-based smart car add-on with sensors</p>
+        </header>
+
+        <div class="diy-card__meta">
+          <ul class="meta-list">
+            <li><strong>Tech:</strong> Arduino, C++, HC-SR04, RGB LEDs, Servo motors</li>
+            <li><strong>Features:</strong> Auto-steer, Auto-brightness, Smart-turning, Speed adjustments, Decision-making, Safety & warnings</li>
+          </ul>
+        </div>
+
+        <!-- Resources -->
+        <div class="resource-actions" role="group" aria-label="Smart Drive resources">
+          <!-- keep this filename if it matches your file exactly -->
+          <a class="btn btn-primary" href="pdfs/Relection.pdf">Reflection</a>
+          <!-- encode spaces in the PDF filename or rename the file to avoid spaces -->
+          <a class="btn btn-ghost" href="pdfs/Cars%20Technology%20Innovation%20Newsletter%20by%20Slidesgo.pdf" target="_blank" rel="noopener">📄 Presentation (PDF)</a>
+          <a class="btn btn-ghost" href="https://github.com/sph4919/SmartDriveCode" target="_blank" rel="noopener">💻 GitHub</a>
+        </div>
+
+        <!-- Media Gallery -->
+        <section class="gallery" aria-labelledby="smartdrive-media">
+          <h4 id="smartdrive-media" class="sr-only">Smart Drive Media</h4>
+
+          <!-- Photos Grid -->
+          <div class="media-grid photos">
+            <figure class="media-item">
+              <a href="Images/upperpic.jpg" target="_blank" rel="noopener">
+                <img src="Images/upperpic.jpg" alt="Smart Drive — top view of the build" loading="lazy" />
+              </a>
+              <figcaption>Top view</figcaption>
+            </figure>
+
+            <figure class="media-item">
+              <a href="Images/leftpic.jpg" target="_blank" rel="noopener">
+                <img src="Images/leftpic.jpg" alt="Smart Drive — left side" loading="lazy" />
+              </a>
+              <figcaption>Left side</figcaption>
+            </figure>
+
+            <figure class="media-item">
+              <a href="Images/rightpic.jpg" target="_blank" rel="noopener">
+                <img src="Images/rightpic.jpg" alt="Smart Drive — right side" loading="lazy" />
+              </a>
+              <figcaption>Right side</figcaption>
+            </figure>
+
+            <figure class="media-item">
+              <a href="Images/frontpic.jpg" target="_blank" rel="noopener">
+                <img src="Images/frontpic.jpg" alt="Smart Drive — front view" loading="lazy" />
+              </a>
+              <figcaption>Front view</figcaption>
+            </figure>
+          </div>
+
+          <!-- Videos Grid (YouTube Shorts) -->
+          <div class="media-grid videos">
+            <figure class="media-item">
+              <div class="yt-embed yt-embed--vertical">
+                <iframe
+                  src="https://www.youtube.com/embed/ICaibprZW0E?rel=0&modestbranding=1&playsinline=1"
+                  title="Smart Drive — Front Drive View"
+                  loading="lazy"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerpolicy="strict-origin-when-cross-origin"
+                  allowfullscreen
+                ></iframe>
+              </div>
+              <figcaption>Front Drive View</figcaption>
+            </figure>
+
+            <figure class="media-item">
+              <div class="yt-embed yt-embed--vertical">
+                <iframe
+                  src="https://www.youtube.com/embed/iJb6gl1NRGc?rel=0&modestbranding=1&playsinline=1"
+                  title="Smart Drive — Back Drive View"
+                  loading="lazy"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerpolicy="strict-origin-when-cross-origin"
+                  allowfullscreen
+                ></iframe>
+              </div>
+              <figcaption>Back Drive View</figcaption>
+            </figure>
+
+            <figure class="media-item">
+              <div class="yt-embed yt-embed--vertical">
+                <iframe
+                  src="https://www.youtube.com/embed/eyWETM7mmNQ?rel=0&modestbranding=1&playsinline=1"
+                  title="Smart Drive — Full View"
+                  loading="lazy"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerpolicy="strict-origin-when-cross-origin"
+                  allowfullscreen
+                ></iframe>
+              </div>
+              <figcaption>Full View</figcaption>
+            </figure>
+          </div>
+        </section>
+
+  
+      </article>
+
+      <!-- Empty state (kept as a friendly footer message) -->
+      <div class="empty-state" aria-hidden="true">
+  
+        <h3>Working on bringing something creative this time.</h3>
         <p>My hardware and creative projects will be showcased here soon!</p>
         <div class="coming-soon">
-          <span>Working on Arduino & Raspberry Pi projects</span>
+          <span>Working on Arduino</span>
           <div class="progress-dots">
             <div class="dot"></div>
             <div class="dot"></div>
@@ -24,7 +134,8 @@
           </div>
         </div>
       </div>
-    </div>
+      <!-- /empty-state -->
+    </section>
   </div>
 </body>
 </html>
