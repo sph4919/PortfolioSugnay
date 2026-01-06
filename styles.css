@@ -562,15 +562,7 @@ hr {
   color: #10B981;
 }
 
-.scripting {
-  border-top: 5px solid #8B5CF6;
-}
-.scripting::after {
-  background: #8B5CF6;
-}
-.scripting .categoryTitle {
-  color: #8B5CF6;
-}
+
 
 .cpp {
   border-top: 5px solid #EF4444;
@@ -582,13 +574,13 @@ hr {
   color: #EF4444;
 }
 
-.csharp {
-  border-top: 5px solid #EC4899;
+.powerbi {
+  border-top: 5px solid #eeee08;
 }
-.csharp::after {
+.powerbi::after {
   background: #EC4899;
 }
-.csharp .categoryTitle {
+.powerbi .categoryTitle {
   color: #EC4899;
 }
 
