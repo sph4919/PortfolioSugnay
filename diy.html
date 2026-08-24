@@ -2,135 +2,796 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Sugnay Patel | DIY Projects</title>
+
   <link rel="shortcut icon" href="Images/favicon.ico" type="image/x-icon" />
   <link rel="stylesheet" href="diypro.css" />
-  <meta name="color-scheme" content="light dark" />
 </head>
-<body>
-  <div class="projects-container diy-theme">
-    <section class="ProjectSkillSection" id="PSSC">
-      <h2 class="TitlePS">DIY Projects</h2>
 
-      <!-- ============ SMART DRIVE CARD ============ -->
-      <article class="diy-card" itemscope itemtype="https://schema.org/SoftwareSourceCode">
+<body>
+
+  <!-- Background Effects -->
+  <div class="pageGlow glowOne"></div>
+  <div class="pageGlow glowTwo"></div>
+  <div class="pageGlow glowThree"></div>
+  <div class="gridOverlay"></div>
+
+
+  <!-- Navigation -->
+  <header class="topbar">
+
+    <div class="topbar-inner">
+
+      <a class="brand" href="index.html">
+        <span class="brand-mark">SP</span>
+        <span class="brand-text">Sugnay Patel</span>
+      </a>
+
+      <nav class="nav">
+
+        <a href="index.html">
+          Home
+        </a>
+
+        <a href="#smart-drive">
+          Smart Drive
+        </a>
+
+        <a href="#media">
+          Media
+        </a>
+
+        <a
+          href="https://github.com/sph4919?tab=repositories"
+          target="_blank"
+          rel="noopener"
+        >
+          GitHub
+        </a>
+
+      </nav>
+
+    </div>
+
+  </header>
+
+
+
+  <main class="container">
+
+
+    <!-- ============================= -->
+    <!-- HERO SECTION -->
+    <!-- ============================= -->
+
+    <section class="pageHero">
+
+      <div class="heroBadge">
+
+        Hardware · Arduino · Embedded Systems · Creative Engineering
+
+      </div>
+
+
+      <div class="pageHeroContent">
+
+
+        <div>
+
+          <p class="eyebrow">
+            DIY Projects
+          </p>
+
+
+          <h1 class="TitlePS">
+
+            Building ideas beyond the screen.
+
+          </h1>
+
+
+          <p class="heroDescription">
+
+            A collection of hands-on projects where software meets
+            sensors, electronics, automation, experimentation,
+            and real-world problem solving.
+
+          </p>
+
+
+          <div class="heroActions">
+
+            <a
+              class="btn btn-primary"
+              href="#smart-drive"
+            >
+              Explore Smart Drive
+            </a>
+
+
+            <a
+              class="btn btn-ghost"
+              href="index.html#projects"
+            >
+              ← Back to Portfolio
+            </a>
+
+          </div>
+
+        </div>
+
+
+
+        <!-- Hero Stats -->
+
+        <div class="heroStatPanel">
+
+
+          <div class="statCard">
+
+            <span class="statValue">
+              Arduino
+            </span>
+
+            <span class="statLabel">
+
+              Embedded control and sensor integration
+
+            </span>
+
+          </div>
+
+
+
+          <div class="statCard">
+
+            <span class="statValue">
+              C++
+            </span>
+
+            <span class="statLabel">
+
+              Logic, automation, and decision-making
+
+            </span>
+
+          </div>
+
+
+
+          <div class="statCard">
+
+            <span class="statValue">
+              Hardware
+            </span>
+
+            <span class="statLabel">
+
+              Physical prototyping and testing
+
+            </span>
+
+          </div>
+
+
+        </div>
+
+
+      </div>
+
+    </section>
+
+
+
+    <!-- ============================= -->
+    <!-- DIY PROJECT SECTION -->
+    <!-- ============================= -->
+
+    <section
+      class="ProjectSkillSection glassSection"
+      id="PSSC"
+    >
+
+
+      <div class="sectionHeaderRow">
+
+        <div>
+
+          <p class="sectionMini">
+            Featured build
+          </p>
+
+          <h2 class="sectionTitle">
+            Smart Drive
+          </h2>
+
+        </div>
+
+
+        <span class="sectionTag">
+          Arduino Project
+        </span>
+
+      </div>
+
+
+
+      <!-- ============================= -->
+      <!-- SMART DRIVE -->
+      <!-- ============================= -->
+
+      <article
+        class="diy-card"
+        id="smart-drive"
+        itemscope
+        itemtype="https://schema.org/SoftwareSourceCode"
+      >
+
+
+        <!-- Project Header -->
+
         <header class="diy-card__header">
-          <h3 class="diy-card__title" itemprop="name">Smart Drive</h3>
-          <p class="diy-card__subtitle">Arduino-based smart car add-on with sensors</p>
+
+
+          <div>
+
+            <p class="projectLabel">
+              Smart mobility prototype
+            </p>
+
+
+            <h3
+              class="diy-card__title"
+              itemprop="name"
+            >
+              Smart Drive
+            </h3>
+
+
+            <p class="diy-card__subtitle">
+
+              Arduino-based smart car add-on with sensors,
+              intelligent responses, and automated driving features.
+
+            </p>
+
+          </div>
+
+
+          <div class="projectIcon">
+            ⚙️
+          </div>
+
+
         </header>
 
-        <div class="diy-card__meta">
-          <ul class="meta-list">
-            <li><strong>Tech:</strong> Arduino, C++, HC-SR04, RGB LEDs, Servo motors</li>
-            <li><strong>Features:</strong> Auto-steer, Auto-brightness, Smart-turning, Speed adjustments, Decision-making, Safety & warnings</li>
-          </ul>
+
+
+        <!-- ============================= -->
+        <!-- PROJECT INFORMATION -->
+        <!-- ============================= -->
+
+        <div class="projectInfoGrid">
+
+
+          <section class="detailCard">
+
+            <span class="detailLabel">
+
+              Technology
+
+            </span>
+
+
+            <p>
+
+              Arduino · C++ · HC-SR04 · RGB LEDs · Servo Motors
+
+            </p>
+
+          </section>
+
+
+
+          <section class="detailCard">
+
+            <span class="detailLabel">
+
+              Core Features
+
+            </span>
+
+
+            <p>
+
+              Auto-steer · Auto-brightness · Smart-turning ·
+              Speed adjustments · Decision-making ·
+              Safety and warning systems
+
+            </p>
+
+          </section>
+
+
         </div>
 
-        <!-- Resources -->
-        <div class="resource-actions" role="group" aria-label="Smart Drive resources">
-          <!-- keep this filename if it matches your file exactly -->
-          <a class="btn btn-primary" href="pdfs/Relection.pdf">Reflection</a>
-          <!-- encode spaces in the PDF filename or rename the file to avoid spaces -->
-          <a class="btn btn-ghost" href="pdfs/Cars Technology Innovation Newsletter by Slidesgo.pdf" target="_blank" rel="noopener">📄 Presentation (PDF)</a>
-          <a class="btn btn-ghost" href="https://github.com/sph4919/SmartDriveCode" target="_blank" rel="noopener">💻 GitHub</a>
-        </div>
 
-        <!-- Media Gallery -->
-        <section class="gallery" aria-labelledby="smartdrive-media">
-          <h4 id="smartdrive-media" class="sr-only">Smart Drive Media</h4>
 
-          <!-- Photos Grid -->
-          <div class="media-grid photos">
-            <figure class="media-item">
-              <a href="Images/upperpic.jpg" target="_blank" rel="noopener">
-                <img src="Images/upperpic.jpg" alt="Smart Drive — top view of the build" loading="lazy" />
-              </a>
-              <figcaption>Top view</figcaption>
-            </figure>
+        <!-- ============================= -->
+        <!-- RESOURCES -->
+        <!-- ============================= -->
 
-            <figure class="media-item">
-              <a href="Images/leftpic.jpg" target="_blank" rel="noopener">
-                <img src="Images/leftpic.jpg" alt="Smart Drive — left side" loading="lazy" />
-              </a>
-              <figcaption>Left side</figcaption>
-            </figure>
+        <div class="resourceBlock">
 
-            <figure class="media-item">
-              <a href="Images/rightpic.jpg" target="_blank" rel="noopener">
-                <img src="Images/rightpic.jpg" alt="Smart Drive — right side" loading="lazy" />
-              </a>
-              <figcaption>Right side</figcaption>
-            </figure>
 
-     
+          <div class="resourceHeading">
+
+            <p class="sectionMini">
+              Project resources
+            </p>
+
+            <h4>
+              Documentation & source code
+            </h4>
+
           </div>
 
-          <!-- Videos Grid (YouTube Shorts) -->
-          <div class="media-grid videos">
+
+
+          <div
+            class="resource-actions"
+            role="group"
+          >
+
+
+            <a
+              class="btn btn-primary"
+              href="pdfs/Relection.pdf"
+              target="_blank"
+              rel="noopener"
+            >
+              Reflection
+            </a>
+
+
+
+            <a
+              class="btn btn-ghost"
+              href="pdfs/Cars Technology Innovation Newsletter by Slidesgo.pdf"
+              target="_blank"
+              rel="noopener"
+            >
+              Presentation PDF
+            </a>
+
+
+
+            <a
+              class="btn btn-ghost"
+              href="https://github.com/sph4919/SmartDriveCode"
+              target="_blank"
+              rel="noopener"
+            >
+              GitHub Repository
+            </a>
+
+
+          </div>
+
+
+        </div>
+
+
+
+        <!-- ============================= -->
+        <!-- PROJECT GALLERY -->
+        <!-- ============================= -->
+
+        <section
+          class="gallery"
+          id="media"
+        >
+
+
+          <div class="galleryHeading">
+
+
+            <div>
+
+              <p class="sectionMini">
+                Project gallery
+              </p>
+
+              <h4>
+                Photos & demonstrations
+              </h4>
+
+            </div>
+
+
+            <span class="sectionTag">
+
+              Build in action
+
+            </span>
+
+
+          </div>
+
+
+
+          <!-- ============================= -->
+          <!-- PROJECT PHOTOS -->
+          <!-- ============================= -->
+
+          <div class="subHeadingRow">
+
+            <h5>
+              Build Photos
+            </h5>
+
+            <span>
+
+              Click any image to view full size
+
+            </span>
+
+          </div>
+
+
+
+          <div class="media-grid photos">
+
+
+
+            <!-- Top View -->
+
             <figure class="media-item">
+
+
+              <a
+                href="Images/upperpic.jpg"
+                target="_blank"
+                rel="noopener"
+              >
+
+                <img
+                  src="Images/upperpic.jpg"
+                  alt="Smart Drive top view"
+                  loading="lazy"
+                />
+
+              </a>
+
+
+              <figcaption>
+
+                <span>
+                  Top View
+                </span>
+
+                <small>
+                  Overall component layout
+                </small>
+
+              </figcaption>
+
+
+            </figure>
+
+
+
+
+            <!-- Left View -->
+
+            <figure class="media-item">
+
+
+              <a
+                href="Images/leftpic.jpg"
+                target="_blank"
+                rel="noopener"
+              >
+
+                <img
+                  src="Images/leftpic.jpg"
+                  alt="Smart Drive left side"
+                  loading="lazy"
+                />
+
+              </a>
+
+
+              <figcaption>
+
+                <span>
+                  Left Side
+                </span>
+
+                <small>
+                  Side profile and hardware placement
+                </small>
+
+              </figcaption>
+
+
+            </figure>
+
+
+
+
+            <!-- Right View -->
+
+            <figure class="media-item">
+
+
+              <a
+                href="Images/rightpic.jpg"
+                target="_blank"
+                rel="noopener"
+              >
+
+                <img
+                  src="Images/rightpic.jpg"
+                  alt="Smart Drive right side"
+                  loading="lazy"
+                />
+
+              </a>
+
+
+              <figcaption>
+
+                <span>
+                  Right Side
+                </span>
+
+                <small>
+                  Sensor and chassis view
+                </small>
+
+              </figcaption>
+
+
+            </figure>
+
+
+          </div>
+
+
+
+          <!-- ============================= -->
+          <!-- VIDEOS -->
+          <!-- ============================= -->
+
+          <div class="subHeadingRow videoHeading">
+
+            <h5>
+              Video Demonstrations
+            </h5>
+
+            <span>
+
+              Smart Drive testing and movement
+
+            </span>
+
+          </div>
+
+
+
+          <div class="media-grid videos">
+
+
+
+            <!-- Video 1 -->
+
+            <figure class="media-item videoCard">
+
+
               <div class="yt-embed yt-embed--vertical">
+
                 <iframe
                   src="https://www.youtube.com/embed/ICaibprZW0E?rel=0&modestbranding=1&playsinline=1"
-                  title="Smart Drive — Front Drive View"
+                  title="Smart Drive Front Drive View"
                   loading="lazy"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                   referrerpolicy="strict-origin-when-cross-origin"
                   allowfullscreen
                 ></iframe>
+
               </div>
-              <figcaption>Front Drive View</figcaption>
+
+
+              <figcaption>
+
+                <span>
+                  Front Drive View
+                </span>
+
+                <small>
+                  Forward movement demonstration
+                </small>
+
+              </figcaption>
+
+
             </figure>
 
-            <figure class="media-item">
+
+
+
+            <!-- Video 2 -->
+
+            <figure class="media-item videoCard">
+
+
               <div class="yt-embed yt-embed--vertical">
+
                 <iframe
                   src="https://www.youtube.com/embed/iJb6gl1NRGc?rel=0&modestbranding=1&playsinline=1"
-                  title="Smart Drive — Back Drive View"
+                  title="Smart Drive Back Drive View"
                   loading="lazy"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                   referrerpolicy="strict-origin-when-cross-origin"
                   allowfullscreen
                 ></iframe>
+
               </div>
-              <figcaption>Back Drive View</figcaption>
+
+
+              <figcaption>
+
+                <span>
+                  Back Drive View
+                </span>
+
+                <small>
+                  Rear movement demonstration
+                </small>
+
+              </figcaption>
+
+
             </figure>
 
-            <figure class="media-item">
+
+
+
+            <!-- Video 3 -->
+
+            <figure class="media-item videoCard">
+
+
               <div class="yt-embed yt-embed--vertical">
+
                 <iframe
                   src="https://www.youtube.com/embed/eyWETM7mmNQ?rel=0&modestbranding=1&playsinline=1"
-                  title="Smart Drive — Full View"
+                  title="Smart Drive Full View"
                   loading="lazy"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                   referrerpolicy="strict-origin-when-cross-origin"
                   allowfullscreen
                 ></iframe>
+
               </div>
-              <figcaption>Full View</figcaption>
+
+
+              <figcaption>
+
+                <span>
+                  Full View
+                </span>
+
+                <small>
+                  Complete project demonstration
+                </small>
+
+              </figcaption>
+
+
             </figure>
+
+
           </div>
+
+
         </section>
 
-  
+
       </article>
 
-      <!-- Empty state (kept as a friendly footer message) -->
-      <div class="empty-state" aria-hidden="true">
-  
-        <h3>Working on bringing something creative this time.</h3>
-        <p>My hardware and creative projects will be showcased here soon!</p>
-        <div class="coming-soon">
-          <span>Working on Arduino</span>
-          <div class="progress-dots">
-            <div class="dot"></div>
-            <div class="dot"></div>
-            <div class="dot"></div>
-          </div>
+
+
+      <!-- ============================= -->
+      <!-- COMING SOON -->
+      <!-- ============================= -->
+
+      <section class="empty-state">
+
+
+        <div class="emptyIcon">
+          🛠️
         </div>
-      </div>
-      <!-- /empty-state -->
+
+
+        <p class="sectionMini">
+
+          What's next
+
+        </p>
+
+
+        <h3>
+
+          Working on bringing something creative this time.
+
+        </h3>
+
+
+        <p>
+
+          More hardware, Arduino, and experimental projects
+          will be showcased here soon.
+
+        </p>
+
+
+        <div class="coming-soon">
+
+
+          <span>
+
+            Working on Arduino
+
+          </span>
+
+
+          <div class="progress-dots">
+
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+
+          </div>
+
+
+        </div>
+
+
+      </section>
+
+
     </section>
-  </div>
+
+
+
+    <!-- Footer -->
+
+    <footer class="footer">
+
+      <p>
+
+        © <span id="year"></span>
+        Sugnay Patel · DIY Projects
+
+      </p>
+
+    </footer>
+
+
+  </main>
+
+
+
+  <script>
+
+    document.getElementById("year").textContent =
+      new Date().getFullYear();
+
+  </script>
+
+
 </body>
 </html>

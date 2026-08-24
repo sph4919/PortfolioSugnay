@@ -1,71 +1,721 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  />
+
   <title>Sugnay Patel | C++ Projects</title>
-  <link rel="stylesheet" href="cpluspluspro.css">
-  <link rel="shortcut icon" href="Images/favicon.ico" type="image/x-icon">
+
+  <link
+    rel="shortcut icon"
+    href="Images/favicon.ico"
+    type="image/x-icon"
+  />
+
+  <link
+    rel="stylesheet"
+    href="cpluspluspro.css"
+  />
 </head>
+
+
 <body>
-  <div class="projects-container">
-    <!-- Projects Section -->
-    <div class="ProjectSkillSection" id="PSSC">
-      <h2 class="TitlePS">C++ Projects</h2>
-      <section class="Projects">
-        <!-- Scheduling Algorithms Project -->
-        <div class="projectCard">
-          <a href="https://github.com/sph4919/SchedulingAlgoin-c-" target="_blank" class="projectLink">
-            <h3 class="projectName">Scheduling Algorithms (Academic Project) <span class="projectYear">2024</span></h3>
-          </a>
-          <p class="projectDescription">• Designed to understand modern day scheduling algorithms which are currently in used for several Operating systems. Advanced C++ concepts of vectors, searching algorithms, DSA like array and queue are used for development of this project.</p>
-          <div class="skillTag">
-            <span>C++</span>
-            <div class="Progress">
-              <div class="Progress-bar" style="width: 90%"></div>
-            </div>
-          </div>
-          <div class="skillTag">
-            <span>Algorithms</span>
-            <div class="Progress">
-              <div class="Progress-bar" style="width: 85%"></div>
-            </div>
-          </div>
-          <div class="skillTag">
-            <span>Data Structures</span>
-            <div class="Progress">
-              <div class="Progress-bar" style="width: 88%"></div>
-            </div>
-          </div>
-        </div>
-        
-        <!-- Tic Tac Toe Game Project -->
-        <div class="projectCard">
-          <a href="https://github.com/sph4919/TicTacToeGame" target="_blank" class="projectLink">
-            <h3 class="projectName">AI Version Control Game (Personal Project) <span class="projectYear">2023</span></h3>
-          </a>
-          <p class="projectDescription">• Designed to learn Object oriented programming concepts in C++ which leads to better code modularity, Reusability, data abstraction, Encapsulation, and scalability etc. This game is developed using C++ concepts of randomization.</p>
-          <div class="skillTag">
-            <span>C++</span>
-            <div class="Progress">
-              <div class="Progress-bar" style="width: 85%"></div>
-            </div>
-          </div>
-          <div class="skillTag">
-            <span>OOP</span>
-            <div class="Progress">
-              <div class="Progress-bar" style="width: 82%"></div>
-            </div>
-          </div>
-          <div class="skillTag">
-            <span>Game Logic</span>
-            <div class="Progress">
-              <div class="Progress-bar" style="width: 78%"></div>
-            </div>
-          </div>
-        </div>
-      </section>
+
+  <!-- Background Glow Effects -->
+  <div class="pageGlow glowOne"></div>
+  <div class="pageGlow glowTwo"></div>
+  <div class="pageGlow glowThree"></div>
+
+  <div class="gridOverlay"></div>
+
+
+
+  <!-- ============================= -->
+  <!-- NAVIGATION -->
+  <!-- ============================= -->
+
+  <header class="topbar">
+
+    <div class="topbar-inner">
+
+      <a
+        class="brand"
+        href="index.html"
+      >
+
+        <span class="brand-mark">
+          SP
+        </span>
+
+        <span class="brand-text">
+          Sugnay Patel
+        </span>
+
+      </a>
+
+
+      <nav class="nav">
+
+        <a href="index.html">
+          Home
+        </a>
+
+        <a href="#projects">
+          Projects
+        </a>
+
+        <a
+          href="https://github.com/sph4919?tab=repositories"
+          target="_blank"
+          rel="noopener"
+        >
+          GitHub
+        </a>
+
+        <a href="index.html#certs">
+          Certifications
+        </a>
+
+      </nav>
+
     </div>
-  </div>
+
+  </header>
+
+
+
+  <main class="container">
+
+
+    <!-- ============================= -->
+    <!-- HERO -->
+    <!-- ============================= -->
+
+    <section class="pageHero">
+
+
+      <div class="heroBadge">
+
+        C++ · Algorithms · DSA · Object-Oriented Programming
+
+      </div>
+
+
+
+      <div class="heroContent">
+
+
+        <div class="heroText">
+
+          <p class="eyebrow">
+            C++ Development
+          </p>
+
+
+          <h1 class="TitlePS">
+
+            Building efficient solutions with logic and algorithms.
+
+          </h1>
+
+
+          <p class="heroDescription">
+
+            A collection of C++ projects focused on algorithms,
+            data structures, object-oriented programming,
+            problem solving, and efficient software development.
+
+          </p>
+
+
+
+          <div class="heroActions">
+
+            <a
+              href="#projects"
+              class="btn btn-primary"
+            >
+              Explore Projects
+            </a>
+
+
+            <a
+              href="index.html#projects"
+              class="btn btn-ghost"
+            >
+              ← Back to Portfolio
+            </a>
+
+          </div>
+
+        </div>
+
+
+
+        <!-- Hero Stats -->
+
+        <div class="heroStats">
+
+
+          <div class="statCard">
+
+            <span class="statValue">
+              C++
+            </span>
+
+            <span class="statLabel">
+
+              Efficient and structured programming
+
+            </span>
+
+          </div>
+
+
+          <div class="statCard">
+
+            <span class="statValue">
+              DSA
+            </span>
+
+            <span class="statLabel">
+
+              Arrays, queues, searching and optimization
+
+            </span>
+
+          </div>
+
+
+          <div class="statCard">
+
+            <span class="statValue">
+              OOP
+            </span>
+
+            <span class="statLabel">
+
+              Modular and reusable application design
+
+            </span>
+
+          </div>
+
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- ============================= -->
+    <!-- PROJECT SECTION -->
+    <!-- ============================= -->
+
+    <section
+      class="ProjectSkillSection glassSection"
+      id="projects"
+    >
+
+
+      <div class="sectionHeaderRow">
+
+
+        <div>
+
+          <p class="sectionMini">
+            Project portfolio
+          </p>
+
+          <h2 class="sectionTitle">
+            C++ Projects
+          </h2>
+
+        </div>
+
+
+        <span class="sectionTag">
+          Algorithms & Development
+        </span>
+
+      </div>
+
+
+
+      <div class="Projects">
+
+
+        <!-- ============================= -->
+        <!-- PROJECT 1 -->
+        <!-- ============================= -->
+
+        <article class="projectCard">
+
+
+          <div class="projectTop">
+
+
+            <div>
+
+              <p class="projectType">
+                Academic Project
+              </p>
+
+
+              <a
+                href="https://github.com/sph4919/SchedulingAlgoin-c-"
+                target="_blank"
+                rel="noopener"
+                class="projectLink"
+              >
+
+                <h3 class="projectName">
+
+                  Scheduling Algorithms
+
+                </h3>
+
+              </a>
+
+            </div>
+
+
+
+            <span class="projectYear">
+              2024
+            </span>
+
+          </div>
+
+
+
+          <p class="projectDescription">
+
+            Designed to understand modern-day scheduling algorithms
+            that are currently used in several operating systems.
+
+            Advanced C++ concepts including vectors, searching
+            algorithms, arrays, queues, and other DSA concepts
+            were used during the development of this project.
+
+          </p>
+
+
+
+          <!-- Skills -->
+
+          <div class="skillsSection">
+
+
+            <div class="skillTag">
+
+              <div class="skillTop">
+
+                <span>
+                  C++
+                </span>
+
+                <span class="skillPercent">
+                  90%
+                </span>
+
+              </div>
+
+
+              <div class="Progress">
+
+                <div
+                  class="Progress-bar"
+                  style="width: 90%"
+                ></div>
+
+              </div>
+
+            </div>
+
+
+
+            <div class="skillTag">
+
+              <div class="skillTop">
+
+                <span>
+                  Algorithms
+                </span>
+
+                <span class="skillPercent">
+                  85%
+                </span>
+
+              </div>
+
+
+              <div class="Progress">
+
+                <div
+                  class="Progress-bar"
+                  style="width: 85%"
+                ></div>
+
+              </div>
+
+            </div>
+
+
+
+            <div class="skillTag">
+
+              <div class="skillTop">
+
+                <span>
+                  Data Structures
+                </span>
+
+                <span class="skillPercent">
+                  88%
+                </span>
+
+              </div>
+
+
+              <div class="Progress">
+
+                <div
+                  class="Progress-bar"
+                  style="width: 88%"
+                ></div>
+
+              </div>
+
+            </div>
+
+
+          </div>
+
+
+
+          <div class="projectFooter">
+
+            <div class="technologyTags">
+
+              <span>
+                C++
+              </span>
+
+              <span>
+                DSA
+              </span>
+
+              <span>
+                Scheduling
+              </span>
+
+              <span>
+                Operating Systems
+              </span>
+
+            </div>
+
+
+
+            <a
+              href="https://github.com/sph4919/SchedulingAlgoin-c-"
+              target="_blank"
+              rel="noopener"
+              class="githubButton"
+            >
+              View on GitHub →
+            </a>
+
+          </div>
+
+
+        </article>
+
+
+
+        <!-- ============================= -->
+        <!-- PROJECT 2 -->
+        <!-- ============================= -->
+
+        <article class="projectCard">
+
+
+          <div class="projectTop">
+
+
+            <div>
+
+              <p class="projectType">
+                Personal Project
+              </p>
+
+
+              <a
+                href="https://github.com/sph4919/TicTacToeGame"
+                target="_blank"
+                rel="noopener"
+                class="projectLink"
+              >
+
+                <h3 class="projectName">
+
+                  AI Version Control Game
+
+                </h3>
+
+              </a>
+
+            </div>
+
+
+
+            <span class="projectYear">
+              2023
+            </span>
+
+          </div>
+
+
+
+          <p class="projectDescription">
+
+            Designed to learn object-oriented programming concepts
+            in C++, leading to improved code modularity,
+            reusability, data abstraction, encapsulation,
+            and scalability.
+
+            The game was developed using C++ concepts including
+            object-oriented design and randomization.
+
+          </p>
+
+
+
+          <!-- Skills -->
+
+          <div class="skillsSection">
+
+
+            <div class="skillTag">
+
+              <div class="skillTop">
+
+                <span>
+                  C++
+                </span>
+
+                <span class="skillPercent">
+                  85%
+                </span>
+
+              </div>
+
+
+              <div class="Progress">
+
+                <div
+                  class="Progress-bar"
+                  style="width: 85%"
+                ></div>
+
+              </div>
+
+            </div>
+
+
+
+            <div class="skillTag">
+
+              <div class="skillTop">
+
+                <span>
+                  OOP
+                </span>
+
+                <span class="skillPercent">
+                  82%
+                </span>
+
+              </div>
+
+
+              <div class="Progress">
+
+                <div
+                  class="Progress-bar"
+                  style="width: 82%"
+                ></div>
+
+              </div>
+
+            </div>
+
+
+
+            <div class="skillTag">
+
+              <div class="skillTop">
+
+                <span>
+                  Game Logic
+                </span>
+
+                <span class="skillPercent">
+                  78%
+                </span>
+
+              </div>
+
+
+              <div class="Progress">
+
+                <div
+                  class="Progress-bar"
+                  style="width: 78%"
+                ></div>
+
+              </div>
+
+            </div>
+
+
+          </div>
+
+
+
+          <div class="projectFooter">
+
+
+            <div class="technologyTags">
+
+              <span>
+                C++
+              </span>
+
+              <span>
+                OOP
+              </span>
+
+              <span>
+                Randomization
+              </span>
+
+              <span>
+                Game Logic
+              </span>
+
+            </div>
+
+
+
+            <a
+              href="https://github.com/sph4919/TicTacToeGame"
+              target="_blank"
+              rel="noopener"
+              class="githubButton"
+            >
+              View on GitHub →
+            </a>
+
+
+          </div>
+
+
+        </article>
+
+
+      </div>
+
+    </section>
+
+
+
+    <!-- ============================= -->
+    <!-- MORE PROJECTS -->
+    <!-- ============================= -->
+
+    <section class="comingSoon">
+
+
+      <div class="comingIcon">
+        &lt;/&gt;
+      </div>
+
+
+      <p class="sectionMini">
+        Currently building
+      </p>
+
+
+      <h2>
+        More C++ projects are coming.
+      </h2>
+
+
+      <p>
+
+        I continue to work on algorithmic problem solving,
+        data structures, performance-focused applications,
+        and more advanced C++ projects.
+
+      </p>
+
+
+      <div class="comingBadge">
+
+        Building with C++
+
+        <div class="progressDots">
+
+          <span></span>
+          <span></span>
+          <span></span>
+
+        </div>
+
+      </div>
+
+
+    </section>
+
+
+
+    <!-- ============================= -->
+    <!-- FOOTER -->
+    <!-- ============================= -->
+
+    <footer class="footer">
+
+      <p>
+
+        © <span id="year"></span>
+        Sugnay Patel · C++ Projects
+
+      </p>
+
+    </footer>
+
+
+  </main>
+
+
+
+  <script>
+
+    document.getElementById("year").textContent =
+      new Date().getFullYear();
+
+  </script>
+
+
 </body>
+
 </html>
